@@ -1,0 +1,25 @@
+﻿@model IEnumerable<dynamic>
+
+@{
+    ViewData["Title"] = "Statistiques des Candidatures";
+}
+
+<h1>@ViewData["Title"]</h1>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Offre</th>
+            <th>Nombre de Candidatures</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var statistique in Model)
+        {
+            <tr>
+                <td>@statistique.Offre</td>
+                <td>@statistique.NombreCandidatures</td>
+            </tr>
+        }
+    </tbody>
+</table>

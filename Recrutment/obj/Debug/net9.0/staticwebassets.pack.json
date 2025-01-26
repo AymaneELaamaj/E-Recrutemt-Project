@@ -1,0 +1,1313 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\Dot NET\\Recrutment\\Recrutment\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\Recrutment.bundle.scp.css",
+      "PackagePath": "staticwebassets\\Recrutment.qy65zcdwf4.bundle.scp.css"
+    },
+    {
+      "Id": "D:\\Dot NET\\Recrutment\\Recrutment\\wwwroot\\Template\\fonts\\CircularStd-Black.eot",
+      "PackagePath": "staticwebassets\\Template\\fonts\\CircularStd-Black.eot"
+    },
+    {
+      "Id": "D:\\Dot NET\\Recrutment\\Recrutment\\wwwroot\\Template\\fonts\\CircularStd-Black.ttf",
+      "PackagePath": "staticwebassets\\Template\\fonts\\CircularStd-Black.ttf"
+    },
+    {
+      "Id": "D:\\Dot NET\\Recrutment\\Recrutment\\wwwroot\\Template\\fonts\\CircularStd-Black.woff",
+      "PackagePath": "staticwebassets\\Template\\fonts\\CircularStd-Black.woff"
+    },
+    {
+      "Id": "D:\\Dot NET\\Recrutment\\Recrutment\\wwwroot\\Template\\fonts\\CircularStd-Black.woff2",
+      "PackagePath": "staticwebassets\\Template\\fonts\\CircularStd-Black.woff2"
+    },
+    {
+      "Id": "D:\\Dot NET\\Recrutment\\Recrutment\\wwwroot\\Template\\fonts\\CircularStd-BlackItalic.eot",
+      "PackagePath": "staticwebassets\\Template\\fonts\\CircularStd-BlackItalic.eot"
+    },
+    {
+      "Id": "D:\\Dot NET\\Recrutment\\Recrutment\\wwwroot\\Template\\fonts\\CircularStd-BlackItalic.ttf",
+      "PackagePath": "staticwebassets\\Template\\fonts\\CircularStd-BlackItalic.ttf"
+    },
+    {
+      "Id": "D:\\Dot NET\\Recrutment\\Recrutment\\wwwroot\\Template\\fonts\\CircularStd-BlackItalic.woff",
+      "PackagePath": "staticwebassets\\Template\\fonts\\CircularStd-BlackItalic.woff"
+    },
+    {
+      "Id": "D:\\Dot NET\\Recrutment\\Recrutment\\wwwroot\\Template\\fonts\\CircularStd-BlackItalic.woff2",
+      "PackagePath": "staticwebassets\\Template\\fonts\\CircularStd-BlackItalic.woff2"
+    },
+    {
+      "Id": "D:\\Dot NET\\Recrutment\\Recrutment\\wwwroot\\Template\\fonts\\CircularStd-Bold.eot",
+      "PackagePath": "staticwebassets\\Template\\fonts\\CircularStd-Bold.eot"
+    },
+    {
+      "Id": "D:\\Dot NET\\Recrutment\\Recrutment\\wwwroot\\Template\\fonts\\CircularStd-Bold.ttf",
+      "PackagePath": "staticwebassets\\Template\\fonts\\CircularStd-Bold.ttf"
+    },
+    {
+      "Id": "D:\\Dot NET\\Recrutment\\Recrutment\\wwwroot\\Template\\fonts\\CircularStd-Bold.woff",
+      "PackagePath": "staticwebassets\\Template\\fonts\\CircularStd-Bold.woff"
+    },
+    {
+      "Id": "D:\\Dot NET\\Recrutment\\Recrutment\\wwwroot\\Template\\fonts\\CircularStd-Bold.woff2",
+      "PackagePath": "staticwebassets\\Template\\fonts\\CircularStd-Bold.woff2"
+    },
+    {
+      "Id": "D:\\Dot NET\\Recrutment\\Recrutment\\wwwroot\\Template\\fonts\\CircularStd-BoldItalic.eot",
+      "PackagePath": "staticwebassets\\Template\\fonts\\CircularStd-BoldItalic.eot"
+    },
+    {
+      "Id": "D:\\Dot NET\\Recrutment\\Recrutment\\wwwroot\\Template\\fonts\\CircularStd-BoldItalic.ttf",
+      "PackagePath": "staticwebassets\\Template\\fonts\\CircularStd-BoldItalic.ttf"
+    },
+    {
+      "Id": "D:\\Dot NET\\Recrutment\\Recrutment\\wwwroot\\Template\\fonts\\CircularStd-BoldItalic.woff",
+      "PackagePath": "staticwebassets\\Template\\fonts\\CircularStd-BoldItalic.woff"
+    },
+    {
+      "Id": "D:\\Dot NET\\Recrutment\\Recrutment\\wwwroot\\Template\\fonts\\CircularStd-BoldItalic.woff2",
+      "PackagePath": "staticwebassets\\Template\\fonts\\CircularStd-BoldItalic.woff2"
+    },
+    {
+      "Id": "D:\\Dot NET\\Recrutment\\Recrutment\\wwwroot\\Template\\fonts\\CircularStd-Book.eot",
+      "PackagePath": "staticwebassets\\Template\\fonts\\CircularStd-Book.eot"
+    },
+    {
+      "Id": "D:\\Dot NET\\Recrutment\\Recrutment\\wwwroot\\Template\\fonts\\CircularStd-Book.ttf",
+      "PackagePath": "staticwebassets\\Template\\fonts\\CircularStd-Book.ttf"
+    },
+    {
+      "Id": "D:\\Dot NET\\Recrutment\\Recrutment\\wwwroot\\Template\\fonts\\CircularStd-Book.woff",
+      "PackagePath": "staticwebassets\\Template\\fonts\\CircularStd-Book.woff"
+    },
+    {
+      "Id": "D:\\Dot NET\\Recrutment\\Recrutment\\wwwroot\\Template\\fonts\\CircularStd-Book.woff2",
+      "PackagePath": "staticwebassets\\Template\\fonts\\CircularStd-Book.woff2"
+    },
+    {
+      "Id": "D:\\Dot NET\\Recrutment\\Recrutment\\wwwroot\\Template\\fonts\\CircularStd-BookItalic.eot",
+      "PackagePath": "staticwebassets\\Template\\fonts\\CircularStd-BookItalic.eot"
+    },
+    {
+      "Id": "D:\\Dot NET\\Recrutment\\Recrutment\\wwwroot\\Template\\fonts\\CircularStd-BookItalic.ttf",
+      "PackagePath": "staticwebassets\\Template\\fonts\\CircularStd-BookItalic.ttf"
+    },
+    {
+      "Id": "D:\\Dot NET\\Recrutment\\Recrutment\\wwwroot\\Template\\fonts\\CircularStd-BookItalic.woff",
+      "PackagePath": "staticwebassets\\Template\\fonts\\CircularStd-BookItalic.woff"
+    },
+    {
+      "Id": "D:\\Dot NET\\Recrutment\\Recrutment\\wwwroot\\Template\\fonts\\CircularStd-BookItalic.woff2",
+      "PackagePath": "staticwebassets\\Template\\fonts\\CircularStd-BookItalic.woff2"
+    },
+    {
+      "Id": "D:\\Dot NET\\Recrutment\\Recrutment\\wwwroot\\Template\\fonts\\CircularStd-Medium.eot",
+      "PackagePath": "staticwebassets\\Template\\fonts\\CircularStd-Medium.eot"
+    },
+    {
+      "Id": "D:\\Dot NET\\Recrutment\\Recrutment\\wwwroot\\Template\\fonts\\CircularStd-Medium.ttf",
+      "PackagePath": "staticwebassets\\Template\\fonts\\CircularStd-Medium.ttf"
+    },
+    {
+      "Id": "D:\\Dot NET\\Recrutment\\Recrutment\\wwwroot\\Template\\fonts\\CircularStd-Medium.woff",
+      "PackagePath": "staticwebassets\\Template\\fonts\\CircularStd-Medium.woff"
+    },
+    {
+      "Id": "D:\\Dot NET\\Recrutment\\Recrutment\\wwwroot\\Template\\fonts\\CircularStd-Medium.woff2",
+      "PackagePath": "staticwebassets\\Template\\fonts\\CircularStd-Medium.woff2"
+    },
+    {
+      "Id": "D:\\Dot NET\\Recrutment\\Recrutment\\wwwroot\\Template\\fonts\\CircularStd-MediumItalic.eot",
+      "PackagePath": "staticwebassets\\Template\\fonts\\CircularStd-MediumItalic.eot"
+    },
+    {
+      "Id": "D:\\Dot NET\\Recrutment\\Recrutment\\wwwroot\\Template\\fonts\\CircularStd-MediumItalic.ttf",
+      "PackagePath": "staticwebassets\\Template\\fonts\\CircularStd-MediumItalic.ttf"
+    },
+    {
+      "Id": "D:\\Dot NET\\Recrutment\\Recrutment\\wwwroot\\Template\\fonts\\CircularStd-MediumItalic.woff",
+      "PackagePath": "staticwebassets\\Template\\fonts\\CircularStd-MediumItalic.woff"
+    },
+    {
+      "Id": "D:\\Dot NET\\Recrutment\\Recrutment\\wwwroot\\Template\\fonts\\CircularStd-MediumItalic.woff2",
+      "PackagePath": "staticwebassets\\Template\\fonts\\CircularStd-MediumItalic.woff2"
+    },
+    {
+      "Id": "D:\\Dot NET\\Recrutment\\Recrutment\\wwwroot\\Template\\fonts\\img\\.gitkeep",
+      "PackagePath": "staticwebassets\\Template\\fonts\\img\\.gitkeep"
+    },
+    {
+      "Id": "D:\\Dot NET\\Recrutment\\Recrutment\\wwwroot\\Template\\fonts\\img\\favicons\\android-chrome-192x192.png",
+      "PackagePath": "staticwebassets\\Template\\fonts\\img\\favicons\\android-chrome-192x192.png"
+    },
+    {
+      "Id": "D:\\Dot NET\\Recrutment\\Recrutment\\wwwroot\\Template\\fonts\\img\\favicons\\android-chrome-512x512.png",
+      "PackagePath": "staticwebassets\\Template\\fonts\\img\\favicons\\android-chrome-512x512.png"
+    },
+    {
+      "Id": "D:\\Dot NET\\Recrutment\\Recrutment\\wwwroot\\Template\\fonts\\img\\favicons\\apple-touch-icon.png",
+      "PackagePath": "staticwebassets\\Template\\fonts\\img\\favicons\\apple-touch-icon.png"
+    },
+    {
+      "Id": "D:\\Dot NET\\Recrutment\\Recrutment\\wwwroot\\Template\\fonts\\img\\favicons\\browserconfig.xml",
+      "PackagePath": "staticwebassets\\Template\\fonts\\img\\favicons\\browserconfig.xml"
+    },
+    {
+      "Id": "D:\\Dot NET\\Recrutment\\Recrutment\\wwwroot\\Template\\fonts\\img\\favicons\\favicon-16x16.png",
+      "PackagePath": "staticwebassets\\Template\\fonts\\img\\favicons\\favicon-16x16.png"
+    },
+    {
+      "Id": "D:\\Dot NET\\Recrutment\\Recrutment\\wwwroot\\Template\\fonts\\img\\favicons\\favicon-32x32.png",
+      "PackagePath": "staticwebassets\\Template\\fonts\\img\\favicons\\favicon-32x32.png"
+    },
+    {
+      "Id": "D:\\Dot NET\\Recrutment\\Recrutment\\wwwroot\\Template\\fonts\\img\\favicons\\favicon.ico",
+      "PackagePath": "staticwebassets\\Template\\fonts\\img\\favicons\\favicon.ico"
+    },
+    {
+      "Id": "D:\\Dot NET\\Recrutment\\Recrutment\\wwwroot\\Template\\fonts\\img\\favicons\\manifest.json",
+      "PackagePath": "staticwebassets\\Template\\fonts\\img\\favicons\\manifest.json"
+    },
+    {
+      "Id": "D:\\Dot NET\\Recrutment\\Recrutment\\wwwroot\\Template\\fonts\\img\\favicons\\mstile-150x150.png",
+      "PackagePath": "staticwebassets\\Template\\fonts\\img\\favicons\\mstile-150x150.png"
+    },
+    {
+      "Id": "D:\\Dot NET\\Recrutment\\Recrutment\\wwwroot\\Template\\fonts\\img\\favicons\\site.webmanifest",
+      "PackagePath": "staticwebassets\\Template\\fonts\\img\\favicons\\site.webmanifest"
+    },
+    {
+      "Id": "D:\\Dot NET\\Recrutment\\Recrutment\\wwwroot\\Template\\fonts\\img\\gallery\\MANIAC.jpg",
+      "PackagePath": "staticwebassets\\Template\\fonts\\img\\gallery\\MANIAC.jpg"
+    },
+    {
+      "Id": "D:\\Dot NET\\Recrutment\\Recrutment\\wwwroot\\Template\\fonts\\img\\gallery\\Polygon 1 copy 3.png",
+      "PackagePath": "staticwebassets\\Template\\fonts\\img\\gallery\\Polygon 1 copy 3.png"
+    },
+    {
+      "Id": "D:\\Dot NET\\Recrutment\\Recrutment\\wwwroot\\Template\\fonts\\img\\gallery\\company-1.png",
+      "PackagePath": "staticwebassets\\Template\\fonts\\img\\gallery\\company-1.png"
+    },
+    {
+      "Id": "D:\\Dot NET\\Recrutment\\Recrutment\\wwwroot\\Template\\fonts\\img\\gallery\\company-2.png",
+      "PackagePath": "staticwebassets\\Template\\fonts\\img\\gallery\\company-2.png"
+    },
+    {
+      "Id": "D:\\Dot NET\\Recrutment\\Recrutment\\wwwroot\\Template\\fonts\\img\\gallery\\company-3.png",
+      "PackagePath": "staticwebassets\\Template\\fonts\\img\\gallery\\company-3.png"
+    },
+    {
+      "Id": "D:\\Dot NET\\Recrutment\\Recrutment\\wwwroot\\Template\\fonts\\img\\gallery\\company-4.png",
+      "PackagePath": "staticwebassets\\Template\\fonts\\img\\gallery\\company-4.png"
+    },
+    {
+      "Id": "D:\\Dot NET\\Recrutment\\Recrutment\\wwwroot\\Template\\fonts\\img\\gallery\\company-5.png",
+      "PackagePath": "staticwebassets\\Template\\fonts\\img\\gallery\\company-5.png"
+    },
+    {
+      "Id": "D:\\Dot NET\\Recrutment\\Recrutment\\wwwroot\\Template\\fonts\\img\\gallery\\company-6.png",
+      "PackagePath": "staticwebassets\\Template\\fonts\\img\\gallery\\company-6.png"
+    },
+    {
+      "Id": "D:\\Dot NET\\Recrutment\\Recrutment\\wwwroot\\Template\\fonts\\img\\gallery\\u.png",
+      "PackagePath": "staticwebassets\\Template\\fonts\\img\\gallery\\u.png"
+    },
+    {
+      "Id": "D:\\Dot NET\\Recrutment\\Recrutment\\wwwroot\\Template\\fonts\\img\\gallery\\user-1.png",
+      "PackagePath": "staticwebassets\\Template\\fonts\\img\\gallery\\user-1.png"
+    },
+    {
+      "Id": "D:\\Dot NET\\Recrutment\\Recrutment\\wwwroot\\Template\\fonts\\img\\gallery\\user-2.png",
+      "PackagePath": "staticwebassets\\Template\\fonts\\img\\gallery\\user-2.png"
+    },
+    {
+      "Id": "D:\\Dot NET\\Recrutment\\Recrutment\\wwwroot\\Template\\fonts\\img\\gallery\\user-3.png",
+      "PackagePath": "staticwebassets\\Template\\fonts\\img\\gallery\\user-3.png"
+    },
+    {
+      "Id": "D:\\Dot NET\\Recrutment\\Recrutment\\wwwroot\\Template\\fonts\\img\\icons\\footer-logo.png",
+      "PackagePath": "staticwebassets\\Template\\fonts\\img\\icons\\footer-logo.png"
+    },
+    {
+      "Id": "D:\\Dot NET\\Recrutment\\Recrutment\\wwwroot\\Template\\fonts\\img\\icons\\logo.png",
+      "PackagePath": "staticwebassets\\Template\\fonts\\img\\icons\\logo.png"
+    },
+    {
+      "Id": "D:\\Dot NET\\Recrutment\\Recrutment\\wwwroot\\Template\\fonts\\img\\illustrations\\Category-bg.png",
+      "PackagePath": "staticwebassets\\Template\\fonts\\img\\illustrations\\Category-bg.png"
+    },
+    {
+      "Id": "D:\\Dot NET\\Recrutment\\Recrutment\\wwwroot\\Template\\fonts\\img\\illustrations\\bg.png",
+      "PackagePath": "staticwebassets\\Template\\fonts\\img\\illustrations\\bg.png"
+    },
+    {
+      "Id": "D:\\Dot NET\\Recrutment\\Recrutment\\wwwroot\\Template\\fonts\\img\\illustrations\\come-on-join.png",
+      "PackagePath": "staticwebassets\\Template\\fonts\\img\\illustrations\\come-on-join.png"
+    },
+    {
+      "Id": "D:\\Dot NET\\Recrutment\\Recrutment\\wwwroot\\Template\\fonts\\img\\illustrations\\consultancy.png",
+      "PackagePath": "staticwebassets\\Template\\fonts\\img\\illustrations\\consultancy.png"
+    },
+    {
+      "Id": "D:\\Dot NET\\Recrutment\\Recrutment\\wwwroot\\Template\\fonts\\img\\illustrations\\design.png",
+      "PackagePath": "staticwebassets\\Template\\fonts\\img\\illustrations\\design.png"
+    },
+    {
+      "Id": "D:\\Dot NET\\Recrutment\\Recrutment\\wwwroot\\Template\\fonts\\img\\illustrations\\education.png",
+      "PackagePath": "staticwebassets\\Template\\fonts\\img\\illustrations\\education.png"
+    },
+    {
+      "Id": "D:\\Dot NET\\Recrutment\\Recrutment\\wwwroot\\Template\\fonts\\img\\illustrations\\feature.png",
+      "PackagePath": "staticwebassets\\Template\\fonts\\img\\illustrations\\feature.png"
+    },
+    {
+      "Id": "D:\\Dot NET\\Recrutment\\Recrutment\\wwwroot\\Template\\fonts\\img\\illustrations\\finance.png",
+      "PackagePath": "staticwebassets\\Template\\fonts\\img\\illustrations\\finance.png"
+    },
+    {
+      "Id": "D:\\Dot NET\\Recrutment\\Recrutment\\wwwroot\\Template\\fonts\\img\\illustrations\\footer-bg.png",
+      "PackagePath": "staticwebassets\\Template\\fonts\\img\\illustrations\\footer-bg.png"
+    },
+    {
+      "Id": "D:\\Dot NET\\Recrutment\\Recrutment\\wwwroot\\Template\\fonts\\img\\illustrations\\footer.png",
+      "PackagePath": "staticwebassets\\Template\\fonts\\img\\illustrations\\footer.png"
+    },
+    {
+      "Id": "D:\\Dot NET\\Recrutment\\Recrutment\\wwwroot\\Template\\fonts\\img\\illustrations\\hero-bg.png",
+      "PackagePath": "staticwebassets\\Template\\fonts\\img\\illustrations\\hero-bg.png"
+    },
+    {
+      "Id": "D:\\Dot NET\\Recrutment\\Recrutment\\wwwroot\\Template\\fonts\\img\\illustrations\\jobs.png",
+      "PackagePath": "staticwebassets\\Template\\fonts\\img\\illustrations\\jobs.png"
+    },
+    {
+      "Id": "D:\\Dot NET\\Recrutment\\Recrutment\\wwwroot\\Template\\fonts\\img\\illustrations\\passion.png",
+      "PackagePath": "staticwebassets\\Template\\fonts\\img\\illustrations\\passion.png"
+    },
+    {
+      "Id": "D:\\Dot NET\\Recrutment\\Recrutment\\wwwroot\\Template\\fonts\\img\\illustrations\\production.png",
+      "PackagePath": "staticwebassets\\Template\\fonts\\img\\illustrations\\production.png"
+    },
+    {
+      "Id": "D:\\Dot NET\\Recrutment\\Recrutment\\wwwroot\\Template\\fonts\\img\\illustrations\\programmer.png",
+      "PackagePath": "staticwebassets\\Template\\fonts\\img\\illustrations\\programmer.png"
+    },
+    {
+      "Id": "D:\\Dot NET\\Recrutment\\Recrutment\\wwwroot\\Template\\fonts\\img\\illustrations\\search.png",
+      "PackagePath": "staticwebassets\\Template\\fonts\\img\\illustrations\\search.png"
+    },
+    {
+      "Id": "D:\\Dot NET\\Recrutment\\Recrutment\\wwwroot\\Template\\fonts\\img\\logo.png",
+      "PackagePath": "staticwebassets\\Template\\fonts\\img\\logo.png"
+    },
+    {
+      "Id": "D:\\Dot NET\\Recrutment\\Recrutment\\wwwroot\\Template\\fonts\\js\\bootstrap-navbar.js",
+      "PackagePath": "staticwebassets\\Template\\fonts\\js\\bootstrap-navbar.js"
+    },
+    {
+      "Id": "D:\\Dot NET\\Recrutment\\Recrutment\\wwwroot\\Template\\fonts\\js\\detector.js",
+      "PackagePath": "staticwebassets\\Template\\fonts\\js\\detector.js"
+    },
+    {
+      "Id": "D:\\Dot NET\\Recrutment\\Recrutment\\wwwroot\\Template\\fonts\\js\\theme.js",
+      "PackagePath": "staticwebassets\\Template\\fonts\\js\\theme.js"
+    },
+    {
+      "Id": "D:\\Dot NET\\Recrutment\\Recrutment\\wwwroot\\Template\\fonts\\js\\theme.js.map",
+      "PackagePath": "staticwebassets\\Template\\fonts\\js\\theme.js.map"
+    },
+    {
+      "Id": "D:\\Dot NET\\Recrutment\\Recrutment\\wwwroot\\Template\\fonts\\js\\theme.min.js",
+      "PackagePath": "staticwebassets\\Template\\fonts\\js\\theme.min.js"
+    },
+    {
+      "Id": "D:\\Dot NET\\Recrutment\\Recrutment\\wwwroot\\Template\\fonts\\js\\theme.min.js.map",
+      "PackagePath": "staticwebassets\\Template\\fonts\\js\\theme.min.js.map"
+    },
+    {
+      "Id": "D:\\Dot NET\\Recrutment\\Recrutment\\wwwroot\\Template\\fonts\\js\\utils.js",
+      "PackagePath": "staticwebassets\\Template\\fonts\\js\\utils.js"
+    },
+    {
+      "Id": "D:\\Dot NET\\Recrutment\\Recrutment\\wwwroot\\Template\\fonts\\scss\\_bootstrap.scss",
+      "PackagePath": "staticwebassets\\Template\\fonts\\scss\\_bootstrap.scss"
+    },
+    {
+      "Id": "D:\\Dot NET\\Recrutment\\Recrutment\\wwwroot\\Template\\fonts\\scss\\_user-variables.scss",
+      "PackagePath": "staticwebassets\\Template\\fonts\\scss\\_user-variables.scss"
+    },
+    {
+      "Id": "D:\\Dot NET\\Recrutment\\Recrutment\\wwwroot\\Template\\fonts\\scss\\_user.scss",
+      "PackagePath": "staticwebassets\\Template\\fonts\\scss\\_user.scss"
+    },
+    {
+      "Id": "D:\\Dot NET\\Recrutment\\Recrutment\\wwwroot\\Template\\fonts\\scss\\theme.css",
+      "PackagePath": "staticwebassets\\Template\\fonts\\scss\\theme.css"
+    },
+    {
+      "Id": "D:\\Dot NET\\Recrutment\\Recrutment\\wwwroot\\Template\\fonts\\scss\\theme.css.map",
+      "PackagePath": "staticwebassets\\Template\\fonts\\scss\\theme.css.map"
+    },
+    {
+      "Id": "D:\\Dot NET\\Recrutment\\Recrutment\\wwwroot\\Template\\fonts\\scss\\theme.scss",
+      "PackagePath": "staticwebassets\\Template\\fonts\\scss\\theme.scss"
+    },
+    {
+      "Id": "D:\\Dot NET\\Recrutment\\Recrutment\\wwwroot\\Template\\fonts\\scss\\theme\\.gitkeep",
+      "PackagePath": "staticwebassets\\Template\\fonts\\scss\\theme\\.gitkeep"
+    },
+    {
+      "Id": "D:\\Dot NET\\Recrutment\\Recrutment\\wwwroot\\Template\\fonts\\scss\\theme\\_badge.scss",
+      "PackagePath": "staticwebassets\\Template\\fonts\\scss\\theme\\_badge.scss"
+    },
+    {
+      "Id": "D:\\Dot NET\\Recrutment\\Recrutment\\wwwroot\\Template\\fonts\\scss\\theme\\_browser-support.scss",
+      "PackagePath": "staticwebassets\\Template\\fonts\\scss\\theme\\_browser-support.scss"
+    },
+    {
+      "Id": "D:\\Dot NET\\Recrutment\\Recrutment\\wwwroot\\Template\\fonts\\scss\\theme\\_button.scss",
+      "PackagePath": "staticwebassets\\Template\\fonts\\scss\\theme\\_button.scss"
+    },
+    {
+      "Id": "D:\\Dot NET\\Recrutment\\Recrutment\\wwwroot\\Template\\fonts\\scss\\theme\\_card.scss",
+      "PackagePath": "staticwebassets\\Template\\fonts\\scss\\theme\\_card.scss"
+    },
+    {
+      "Id": "D:\\Dot NET\\Recrutment\\Recrutment\\wwwroot\\Template\\fonts\\scss\\theme\\_fonts.scss",
+      "PackagePath": "staticwebassets\\Template\\fonts\\scss\\theme\\_fonts.scss"
+    },
+    {
+      "Id": "D:\\Dot NET\\Recrutment\\Recrutment\\wwwroot\\Template\\fonts\\scss\\theme\\_functions.scss",
+      "PackagePath": "staticwebassets\\Template\\fonts\\scss\\theme\\_functions.scss"
+    },
+    {
+      "Id": "D:\\Dot NET\\Recrutment\\Recrutment\\wwwroot\\Template\\fonts\\scss\\theme\\_helpers.scss",
+      "PackagePath": "staticwebassets\\Template\\fonts\\scss\\theme\\_helpers.scss"
+    },
+    {
+      "Id": "D:\\Dot NET\\Recrutment\\Recrutment\\wwwroot\\Template\\fonts\\scss\\theme\\_hover.scss",
+      "PackagePath": "staticwebassets\\Template\\fonts\\scss\\theme\\_hover.scss"
+    },
+    {
+      "Id": "D:\\Dot NET\\Recrutment\\Recrutment\\wwwroot\\Template\\fonts\\scss\\theme\\_icon.scss",
+      "PackagePath": "staticwebassets\\Template\\fonts\\scss\\theme\\_icon.scss"
+    },
+    {
+      "Id": "D:\\Dot NET\\Recrutment\\Recrutment\\wwwroot\\Template\\fonts\\scss\\theme\\_mixed.scss",
+      "PackagePath": "staticwebassets\\Template\\fonts\\scss\\theme\\_mixed.scss"
+    },
+    {
+      "Id": "D:\\Dot NET\\Recrutment\\Recrutment\\wwwroot\\Template\\fonts\\scss\\theme\\_mixins.scss",
+      "PackagePath": "staticwebassets\\Template\\fonts\\scss\\theme\\_mixins.scss"
+    },
+    {
+      "Id": "D:\\Dot NET\\Recrutment\\Recrutment\\wwwroot\\Template\\fonts\\scss\\theme\\_reboot.scss",
+      "PackagePath": "staticwebassets\\Template\\fonts\\scss\\theme\\_reboot.scss"
+    },
+    {
+      "Id": "D:\\Dot NET\\Recrutment\\Recrutment\\wwwroot\\Template\\fonts\\scss\\theme\\_search.scss",
+      "PackagePath": "staticwebassets\\Template\\fonts\\scss\\theme\\_search.scss"
+    },
+    {
+      "Id": "D:\\Dot NET\\Recrutment\\Recrutment\\wwwroot\\Template\\fonts\\scss\\theme\\_testimonial.scss",
+      "PackagePath": "staticwebassets\\Template\\fonts\\scss\\theme\\_testimonial.scss"
+    },
+    {
+      "Id": "D:\\Dot NET\\Recrutment\\Recrutment\\wwwroot\\Template\\fonts\\scss\\theme\\_theme.scss",
+      "PackagePath": "staticwebassets\\Template\\fonts\\scss\\theme\\_theme.scss"
+    },
+    {
+      "Id": "D:\\Dot NET\\Recrutment\\Recrutment\\wwwroot\\Template\\fonts\\scss\\theme\\_utilities.scss",
+      "PackagePath": "staticwebassets\\Template\\fonts\\scss\\theme\\_utilities.scss"
+    },
+    {
+      "Id": "D:\\Dot NET\\Recrutment\\Recrutment\\wwwroot\\Template\\fonts\\scss\\theme\\_variables.scss",
+      "PackagePath": "staticwebassets\\Template\\fonts\\scss\\theme\\_variables.scss"
+    },
+    {
+      "Id": "D:\\Dot NET\\Recrutment\\Recrutment\\wwwroot\\Template\\fonts\\scss\\theme\\helpers\\_background.scss",
+      "PackagePath": "staticwebassets\\Template\\fonts\\scss\\theme\\helpers\\_background.scss"
+    },
+    {
+      "Id": "D:\\Dot NET\\Recrutment\\Recrutment\\wwwroot\\Template\\fonts\\scss\\theme\\helpers\\_borders.scss",
+      "PackagePath": "staticwebassets\\Template\\fonts\\scss\\theme\\helpers\\_borders.scss"
+    },
+    {
+      "Id": "D:\\Dot NET\\Recrutment\\Recrutment\\wwwroot\\Template\\fonts\\scss\\theme\\helpers\\_colored-links.scss",
+      "PackagePath": "staticwebassets\\Template\\fonts\\scss\\theme\\helpers\\_colored-links.scss"
+    },
+    {
+      "Id": "D:\\Dot NET\\Recrutment\\Recrutment\\wwwroot\\Template\\fonts\\scss\\theme\\helpers\\_flex.scss",
+      "PackagePath": "staticwebassets\\Template\\fonts\\scss\\theme\\helpers\\_flex.scss"
+    },
+    {
+      "Id": "D:\\Dot NET\\Recrutment\\Recrutment\\wwwroot\\Template\\fonts\\scss\\theme\\helpers\\_position.scss",
+      "PackagePath": "staticwebassets\\Template\\fonts\\scss\\theme\\helpers\\_position.scss"
+    },
+    {
+      "Id": "D:\\Dot NET\\Recrutment\\Recrutment\\wwwroot\\Template\\fonts\\scss\\theme\\helpers\\_shadow.scss",
+      "PackagePath": "staticwebassets\\Template\\fonts\\scss\\theme\\helpers\\_shadow.scss"
+    },
+    {
+      "Id": "D:\\Dot NET\\Recrutment\\Recrutment\\wwwroot\\Template\\fonts\\scss\\theme\\helpers\\_text.scss",
+      "PackagePath": "staticwebassets\\Template\\fonts\\scss\\theme\\helpers\\_text.scss"
+    },
+    {
+      "Id": "D:\\Dot NET\\Recrutment\\Recrutment\\wwwroot\\Template\\public\\assets\\css\\theme-rtl.css",
+      "PackagePath": "staticwebassets\\Template\\public\\assets\\css\\theme-rtl.css"
+    },
+    {
+      "Id": "D:\\Dot NET\\Recrutment\\Recrutment\\wwwroot\\Template\\public\\assets\\css\\theme-rtl.css.map",
+      "PackagePath": "staticwebassets\\Template\\public\\assets\\css\\theme-rtl.css.map"
+    },
+    {
+      "Id": "D:\\Dot NET\\Recrutment\\Recrutment\\wwwroot\\Template\\public\\assets\\css\\theme-rtl.min.css",
+      "PackagePath": "staticwebassets\\Template\\public\\assets\\css\\theme-rtl.min.css"
+    },
+    {
+      "Id": "D:\\Dot NET\\Recrutment\\Recrutment\\wwwroot\\Template\\public\\assets\\css\\theme-rtl.min.css.map",
+      "PackagePath": "staticwebassets\\Template\\public\\assets\\css\\theme-rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\Dot NET\\Recrutment\\Recrutment\\wwwroot\\Template\\public\\assets\\css\\theme.css",
+      "PackagePath": "staticwebassets\\Template\\public\\assets\\css\\theme.css"
+    },
+    {
+      "Id": "D:\\Dot NET\\Recrutment\\Recrutment\\wwwroot\\Template\\public\\assets\\css\\theme.css.map",
+      "PackagePath": "staticwebassets\\Template\\public\\assets\\css\\theme.css.map"
+    },
+    {
+      "Id": "D:\\Dot NET\\Recrutment\\Recrutment\\wwwroot\\Template\\public\\assets\\css\\theme.min.css",
+      "PackagePath": "staticwebassets\\Template\\public\\assets\\css\\theme.min.css"
+    },
+    {
+      "Id": "D:\\Dot NET\\Recrutment\\Recrutment\\wwwroot\\Template\\public\\assets\\css\\theme.min.css.map",
+      "PackagePath": "staticwebassets\\Template\\public\\assets\\css\\theme.min.css.map"
+    },
+    {
+      "Id": "D:\\Dot NET\\Recrutment\\Recrutment\\wwwroot\\Template\\public\\assets\\fonts\\CircularStd-Black.eot",
+      "PackagePath": "staticwebassets\\Template\\public\\assets\\fonts\\CircularStd-Black.eot"
+    },
+    {
+      "Id": "D:\\Dot NET\\Recrutment\\Recrutment\\wwwroot\\Template\\public\\assets\\fonts\\CircularStd-Black.ttf",
+      "PackagePath": "staticwebassets\\Template\\public\\assets\\fonts\\CircularStd-Black.ttf"
+    },
+    {
+      "Id": "D:\\Dot NET\\Recrutment\\Recrutment\\wwwroot\\Template\\public\\assets\\fonts\\CircularStd-Black.woff",
+      "PackagePath": "staticwebassets\\Template\\public\\assets\\fonts\\CircularStd-Black.woff"
+    },
+    {
+      "Id": "D:\\Dot NET\\Recrutment\\Recrutment\\wwwroot\\Template\\public\\assets\\fonts\\CircularStd-Black.woff2",
+      "PackagePath": "staticwebassets\\Template\\public\\assets\\fonts\\CircularStd-Black.woff2"
+    },
+    {
+      "Id": "D:\\Dot NET\\Recrutment\\Recrutment\\wwwroot\\Template\\public\\assets\\fonts\\CircularStd-BlackItalic.eot",
+      "PackagePath": "staticwebassets\\Template\\public\\assets\\fonts\\CircularStd-BlackItalic.eot"
+    },
+    {
+      "Id": "D:\\Dot NET\\Recrutment\\Recrutment\\wwwroot\\Template\\public\\assets\\fonts\\CircularStd-BlackItalic.ttf",
+      "PackagePath": "staticwebassets\\Template\\public\\assets\\fonts\\CircularStd-BlackItalic.ttf"
+    },
+    {
+      "Id": "D:\\Dot NET\\Recrutment\\Recrutment\\wwwroot\\Template\\public\\assets\\fonts\\CircularStd-BlackItalic.woff",
+      "PackagePath": "staticwebassets\\Template\\public\\assets\\fonts\\CircularStd-BlackItalic.woff"
+    },
+    {
+      "Id": "D:\\Dot NET\\Recrutment\\Recrutment\\wwwroot\\Template\\public\\assets\\fonts\\CircularStd-BlackItalic.woff2",
+      "PackagePath": "staticwebassets\\Template\\public\\assets\\fonts\\CircularStd-BlackItalic.woff2"
+    },
+    {
+      "Id": "D:\\Dot NET\\Recrutment\\Recrutment\\wwwroot\\Template\\public\\assets\\fonts\\CircularStd-Bold.eot",
+      "PackagePath": "staticwebassets\\Template\\public\\assets\\fonts\\CircularStd-Bold.eot"
+    },
+    {
+      "Id": "D:\\Dot NET\\Recrutment\\Recrutment\\wwwroot\\Template\\public\\assets\\fonts\\CircularStd-Bold.ttf",
+      "PackagePath": "staticwebassets\\Template\\public\\assets\\fonts\\CircularStd-Bold.ttf"
+    },
+    {
+      "Id": "D:\\Dot NET\\Recrutment\\Recrutment\\wwwroot\\Template\\public\\assets\\fonts\\CircularStd-Bold.woff",
+      "PackagePath": "staticwebassets\\Template\\public\\assets\\fonts\\CircularStd-Bold.woff"
+    },
+    {
+      "Id": "D:\\Dot NET\\Recrutment\\Recrutment\\wwwroot\\Template\\public\\assets\\fonts\\CircularStd-Bold.woff2",
+      "PackagePath": "staticwebassets\\Template\\public\\assets\\fonts\\CircularStd-Bold.woff2"
+    },
+    {
+      "Id": "D:\\Dot NET\\Recrutment\\Recrutment\\wwwroot\\Template\\public\\assets\\fonts\\CircularStd-BoldItalic.eot",
+      "PackagePath": "staticwebassets\\Template\\public\\assets\\fonts\\CircularStd-BoldItalic.eot"
+    },
+    {
+      "Id": "D:\\Dot NET\\Recrutment\\Recrutment\\wwwroot\\Template\\public\\assets\\fonts\\CircularStd-BoldItalic.ttf",
+      "PackagePath": "staticwebassets\\Template\\public\\assets\\fonts\\CircularStd-BoldItalic.ttf"
+    },
+    {
+      "Id": "D:\\Dot NET\\Recrutment\\Recrutment\\wwwroot\\Template\\public\\assets\\fonts\\CircularStd-BoldItalic.woff",
+      "PackagePath": "staticwebassets\\Template\\public\\assets\\fonts\\CircularStd-BoldItalic.woff"
+    },
+    {
+      "Id": "D:\\Dot NET\\Recrutment\\Recrutment\\wwwroot\\Template\\public\\assets\\fonts\\CircularStd-BoldItalic.woff2",
+      "PackagePath": "staticwebassets\\Template\\public\\assets\\fonts\\CircularStd-BoldItalic.woff2"
+    },
+    {
+      "Id": "D:\\Dot NET\\Recrutment\\Recrutment\\wwwroot\\Template\\public\\assets\\fonts\\CircularStd-Book.eot",
+      "PackagePath": "staticwebassets\\Template\\public\\assets\\fonts\\CircularStd-Book.eot"
+    },
+    {
+      "Id": "D:\\Dot NET\\Recrutment\\Recrutment\\wwwroot\\Template\\public\\assets\\fonts\\CircularStd-Book.ttf",
+      "PackagePath": "staticwebassets\\Template\\public\\assets\\fonts\\CircularStd-Book.ttf"
+    },
+    {
+      "Id": "D:\\Dot NET\\Recrutment\\Recrutment\\wwwroot\\Template\\public\\assets\\fonts\\CircularStd-Book.woff",
+      "PackagePath": "staticwebassets\\Template\\public\\assets\\fonts\\CircularStd-Book.woff"
+    },
+    {
+      "Id": "D:\\Dot NET\\Recrutment\\Recrutment\\wwwroot\\Template\\public\\assets\\fonts\\CircularStd-Book.woff2",
+      "PackagePath": "staticwebassets\\Template\\public\\assets\\fonts\\CircularStd-Book.woff2"
+    },
+    {
+      "Id": "D:\\Dot NET\\Recrutment\\Recrutment\\wwwroot\\Template\\public\\assets\\fonts\\CircularStd-BookItalic.eot",
+      "PackagePath": "staticwebassets\\Template\\public\\assets\\fonts\\CircularStd-BookItalic.eot"
+    },
+    {
+      "Id": "D:\\Dot NET\\Recrutment\\Recrutment\\wwwroot\\Template\\public\\assets\\fonts\\CircularStd-BookItalic.ttf",
+      "PackagePath": "staticwebassets\\Template\\public\\assets\\fonts\\CircularStd-BookItalic.ttf"
+    },
+    {
+      "Id": "D:\\Dot NET\\Recrutment\\Recrutment\\wwwroot\\Template\\public\\assets\\fonts\\CircularStd-BookItalic.woff",
+      "PackagePath": "staticwebassets\\Template\\public\\assets\\fonts\\CircularStd-BookItalic.woff"
+    },
+    {
+      "Id": "D:\\Dot NET\\Recrutment\\Recrutment\\wwwroot\\Template\\public\\assets\\fonts\\CircularStd-BookItalic.woff2",
+      "PackagePath": "staticwebassets\\Template\\public\\assets\\fonts\\CircularStd-BookItalic.woff2"
+    },
+    {
+      "Id": "D:\\Dot NET\\Recrutment\\Recrutment\\wwwroot\\Template\\public\\assets\\fonts\\CircularStd-Medium.eot",
+      "PackagePath": "staticwebassets\\Template\\public\\assets\\fonts\\CircularStd-Medium.eot"
+    },
+    {
+      "Id": "D:\\Dot NET\\Recrutment\\Recrutment\\wwwroot\\Template\\public\\assets\\fonts\\CircularStd-Medium.ttf",
+      "PackagePath": "staticwebassets\\Template\\public\\assets\\fonts\\CircularStd-Medium.ttf"
+    },
+    {
+      "Id": "D:\\Dot NET\\Recrutment\\Recrutment\\wwwroot\\Template\\public\\assets\\fonts\\CircularStd-Medium.woff",
+      "PackagePath": "staticwebassets\\Template\\public\\assets\\fonts\\CircularStd-Medium.woff"
+    },
+    {
+      "Id": "D:\\Dot NET\\Recrutment\\Recrutment\\wwwroot\\Template\\public\\assets\\fonts\\CircularStd-Medium.woff2",
+      "PackagePath": "staticwebassets\\Template\\public\\assets\\fonts\\CircularStd-Medium.woff2"
+    },
+    {
+      "Id": "D:\\Dot NET\\Recrutment\\Recrutment\\wwwroot\\Template\\public\\assets\\fonts\\CircularStd-MediumItalic.eot",
+      "PackagePath": "staticwebassets\\Template\\public\\assets\\fonts\\CircularStd-MediumItalic.eot"
+    },
+    {
+      "Id": "D:\\Dot NET\\Recrutment\\Recrutment\\wwwroot\\Template\\public\\assets\\fonts\\CircularStd-MediumItalic.ttf",
+      "PackagePath": "staticwebassets\\Template\\public\\assets\\fonts\\CircularStd-MediumItalic.ttf"
+    },
+    {
+      "Id": "D:\\Dot NET\\Recrutment\\Recrutment\\wwwroot\\Template\\public\\assets\\fonts\\CircularStd-MediumItalic.woff",
+      "PackagePath": "staticwebassets\\Template\\public\\assets\\fonts\\CircularStd-MediumItalic.woff"
+    },
+    {
+      "Id": "D:\\Dot NET\\Recrutment\\Recrutment\\wwwroot\\Template\\public\\assets\\fonts\\CircularStd-MediumItalic.woff2",
+      "PackagePath": "staticwebassets\\Template\\public\\assets\\fonts\\CircularStd-MediumItalic.woff2"
+    },
+    {
+      "Id": "D:\\Dot NET\\Recrutment\\Recrutment\\wwwroot\\Template\\public\\assets\\img\\.gitkeep",
+      "PackagePath": "staticwebassets\\Template\\public\\assets\\img\\.gitkeep"
+    },
+    {
+      "Id": "D:\\Dot NET\\Recrutment\\Recrutment\\wwwroot\\Template\\public\\assets\\img\\favicons\\android-chrome-192x192.png",
+      "PackagePath": "staticwebassets\\Template\\public\\assets\\img\\favicons\\android-chrome-192x192.png"
+    },
+    {
+      "Id": "D:\\Dot NET\\Recrutment\\Recrutment\\wwwroot\\Template\\public\\assets\\img\\favicons\\android-chrome-512x512.png",
+      "PackagePath": "staticwebassets\\Template\\public\\assets\\img\\favicons\\android-chrome-512x512.png"
+    },
+    {
+      "Id": "D:\\Dot NET\\Recrutment\\Recrutment\\wwwroot\\Template\\public\\assets\\img\\favicons\\apple-touch-icon.png",
+      "PackagePath": "staticwebassets\\Template\\public\\assets\\img\\favicons\\apple-touch-icon.png"
+    },
+    {
+      "Id": "D:\\Dot NET\\Recrutment\\Recrutment\\wwwroot\\Template\\public\\assets\\img\\favicons\\browserconfig.xml",
+      "PackagePath": "staticwebassets\\Template\\public\\assets\\img\\favicons\\browserconfig.xml"
+    },
+    {
+      "Id": "D:\\Dot NET\\Recrutment\\Recrutment\\wwwroot\\Template\\public\\assets\\img\\favicons\\favicon-16x16.png",
+      "PackagePath": "staticwebassets\\Template\\public\\assets\\img\\favicons\\favicon-16x16.png"
+    },
+    {
+      "Id": "D:\\Dot NET\\Recrutment\\Recrutment\\wwwroot\\Template\\public\\assets\\img\\favicons\\favicon-32x32.png",
+      "PackagePath": "staticwebassets\\Template\\public\\assets\\img\\favicons\\favicon-32x32.png"
+    },
+    {
+      "Id": "D:\\Dot NET\\Recrutment\\Recrutment\\wwwroot\\Template\\public\\assets\\img\\favicons\\favicon.ico",
+      "PackagePath": "staticwebassets\\Template\\public\\assets\\img\\favicons\\favicon.ico"
+    },
+    {
+      "Id": "D:\\Dot NET\\Recrutment\\Recrutment\\wwwroot\\Template\\public\\assets\\img\\favicons\\manifest.json",
+      "PackagePath": "staticwebassets\\Template\\public\\assets\\img\\favicons\\manifest.json"
+    },
+    {
+      "Id": "D:\\Dot NET\\Recrutment\\Recrutment\\wwwroot\\Template\\public\\assets\\img\\favicons\\mstile-150x150.png",
+      "PackagePath": "staticwebassets\\Template\\public\\assets\\img\\favicons\\mstile-150x150.png"
+    },
+    {
+      "Id": "D:\\Dot NET\\Recrutment\\Recrutment\\wwwroot\\Template\\public\\assets\\img\\favicons\\site.webmanifest",
+      "PackagePath": "staticwebassets\\Template\\public\\assets\\img\\favicons\\site.webmanifest"
+    },
+    {
+      "Id": "D:\\Dot NET\\Recrutment\\Recrutment\\wwwroot\\Template\\public\\assets\\img\\gallery\\MANIAC.jpg",
+      "PackagePath": "staticwebassets\\Template\\public\\assets\\img\\gallery\\MANIAC.jpg"
+    },
+    {
+      "Id": "D:\\Dot NET\\Recrutment\\Recrutment\\wwwroot\\Template\\public\\assets\\img\\gallery\\Polygon 1 copy 3.png",
+      "PackagePath": "staticwebassets\\Template\\public\\assets\\img\\gallery\\Polygon 1 copy 3.png"
+    },
+    {
+      "Id": "D:\\Dot NET\\Recrutment\\Recrutment\\wwwroot\\Template\\public\\assets\\img\\gallery\\company-1.png",
+      "PackagePath": "staticwebassets\\Template\\public\\assets\\img\\gallery\\company-1.png"
+    },
+    {
+      "Id": "D:\\Dot NET\\Recrutment\\Recrutment\\wwwroot\\Template\\public\\assets\\img\\gallery\\company-2.png",
+      "PackagePath": "staticwebassets\\Template\\public\\assets\\img\\gallery\\company-2.png"
+    },
+    {
+      "Id": "D:\\Dot NET\\Recrutment\\Recrutment\\wwwroot\\Template\\public\\assets\\img\\gallery\\company-3.png",
+      "PackagePath": "staticwebassets\\Template\\public\\assets\\img\\gallery\\company-3.png"
+    },
+    {
+      "Id": "D:\\Dot NET\\Recrutment\\Recrutment\\wwwroot\\Template\\public\\assets\\img\\gallery\\company-4.png",
+      "PackagePath": "staticwebassets\\Template\\public\\assets\\img\\gallery\\company-4.png"
+    },
+    {
+      "Id": "D:\\Dot NET\\Recrutment\\Recrutment\\wwwroot\\Template\\public\\assets\\img\\gallery\\company-5.png",
+      "PackagePath": "staticwebassets\\Template\\public\\assets\\img\\gallery\\company-5.png"
+    },
+    {
+      "Id": "D:\\Dot NET\\Recrutment\\Recrutment\\wwwroot\\Template\\public\\assets\\img\\gallery\\company-6.png",
+      "PackagePath": "staticwebassets\\Template\\public\\assets\\img\\gallery\\company-6.png"
+    },
+    {
+      "Id": "D:\\Dot NET\\Recrutment\\Recrutment\\wwwroot\\Template\\public\\assets\\img\\gallery\\u.png",
+      "PackagePath": "staticwebassets\\Template\\public\\assets\\img\\gallery\\u.png"
+    },
+    {
+      "Id": "D:\\Dot NET\\Recrutment\\Recrutment\\wwwroot\\Template\\public\\assets\\img\\gallery\\user-1.png",
+      "PackagePath": "staticwebassets\\Template\\public\\assets\\img\\gallery\\user-1.png"
+    },
+    {
+      "Id": "D:\\Dot NET\\Recrutment\\Recrutment\\wwwroot\\Template\\public\\assets\\img\\gallery\\user-2.png",
+      "PackagePath": "staticwebassets\\Template\\public\\assets\\img\\gallery\\user-2.png"
+    },
+    {
+      "Id": "D:\\Dot NET\\Recrutment\\Recrutment\\wwwroot\\Template\\public\\assets\\img\\gallery\\user-3.png",
+      "PackagePath": "staticwebassets\\Template\\public\\assets\\img\\gallery\\user-3.png"
+    },
+    {
+      "Id": "D:\\Dot NET\\Recrutment\\Recrutment\\wwwroot\\Template\\public\\assets\\img\\icons\\footer-logo.png",
+      "PackagePath": "staticwebassets\\Template\\public\\assets\\img\\icons\\footer-logo.png"
+    },
+    {
+      "Id": "D:\\Dot NET\\Recrutment\\Recrutment\\wwwroot\\Template\\public\\assets\\img\\icons\\logo.png",
+      "PackagePath": "staticwebassets\\Template\\public\\assets\\img\\icons\\logo.png"
+    },
+    {
+      "Id": "D:\\Dot NET\\Recrutment\\Recrutment\\wwwroot\\Template\\public\\assets\\img\\illustrations\\Category-bg.png",
+      "PackagePath": "staticwebassets\\Template\\public\\assets\\img\\illustrations\\Category-bg.png"
+    },
+    {
+      "Id": "D:\\Dot NET\\Recrutment\\Recrutment\\wwwroot\\Template\\public\\assets\\img\\illustrations\\bg.png",
+      "PackagePath": "staticwebassets\\Template\\public\\assets\\img\\illustrations\\bg.png"
+    },
+    {
+      "Id": "D:\\Dot NET\\Recrutment\\Recrutment\\wwwroot\\Template\\public\\assets\\img\\illustrations\\come-on-join.png",
+      "PackagePath": "staticwebassets\\Template\\public\\assets\\img\\illustrations\\come-on-join.png"
+    },
+    {
+      "Id": "D:\\Dot NET\\Recrutment\\Recrutment\\wwwroot\\Template\\public\\assets\\img\\illustrations\\consultancy.png",
+      "PackagePath": "staticwebassets\\Template\\public\\assets\\img\\illustrations\\consultancy.png"
+    },
+    {
+      "Id": "D:\\Dot NET\\Recrutment\\Recrutment\\wwwroot\\Template\\public\\assets\\img\\illustrations\\design.png",
+      "PackagePath": "staticwebassets\\Template\\public\\assets\\img\\illustrations\\design.png"
+    },
+    {
+      "Id": "D:\\Dot NET\\Recrutment\\Recrutment\\wwwroot\\Template\\public\\assets\\img\\illustrations\\education.png",
+      "PackagePath": "staticwebassets\\Template\\public\\assets\\img\\illustrations\\education.png"
+    },
+    {
+      "Id": "D:\\Dot NET\\Recrutment\\Recrutment\\wwwroot\\Template\\public\\assets\\img\\illustrations\\feature.png",
+      "PackagePath": "staticwebassets\\Template\\public\\assets\\img\\illustrations\\feature.png"
+    },
+    {
+      "Id": "D:\\Dot NET\\Recrutment\\Recrutment\\wwwroot\\Template\\public\\assets\\img\\illustrations\\finance.png",
+      "PackagePath": "staticwebassets\\Template\\public\\assets\\img\\illustrations\\finance.png"
+    },
+    {
+      "Id": "D:\\Dot NET\\Recrutment\\Recrutment\\wwwroot\\Template\\public\\assets\\img\\illustrations\\footer-bg.png",
+      "PackagePath": "staticwebassets\\Template\\public\\assets\\img\\illustrations\\footer-bg.png"
+    },
+    {
+      "Id": "D:\\Dot NET\\Recrutment\\Recrutment\\wwwroot\\Template\\public\\assets\\img\\illustrations\\footer.png",
+      "PackagePath": "staticwebassets\\Template\\public\\assets\\img\\illustrations\\footer.png"
+    },
+    {
+      "Id": "D:\\Dot NET\\Recrutment\\Recrutment\\wwwroot\\Template\\public\\assets\\img\\illustrations\\hero-bg.png",
+      "PackagePath": "staticwebassets\\Template\\public\\assets\\img\\illustrations\\hero-bg.png"
+    },
+    {
+      "Id": "D:\\Dot NET\\Recrutment\\Recrutment\\wwwroot\\Template\\public\\assets\\img\\illustrations\\jobs.png",
+      "PackagePath": "staticwebassets\\Template\\public\\assets\\img\\illustrations\\jobs.png"
+    },
+    {
+      "Id": "D:\\Dot NET\\Recrutment\\Recrutment\\wwwroot\\Template\\public\\assets\\img\\illustrations\\passion.png",
+      "PackagePath": "staticwebassets\\Template\\public\\assets\\img\\illustrations\\passion.png"
+    },
+    {
+      "Id": "D:\\Dot NET\\Recrutment\\Recrutment\\wwwroot\\Template\\public\\assets\\img\\illustrations\\production.png",
+      "PackagePath": "staticwebassets\\Template\\public\\assets\\img\\illustrations\\production.png"
+    },
+    {
+      "Id": "D:\\Dot NET\\Recrutment\\Recrutment\\wwwroot\\Template\\public\\assets\\img\\illustrations\\programmer.png",
+      "PackagePath": "staticwebassets\\Template\\public\\assets\\img\\illustrations\\programmer.png"
+    },
+    {
+      "Id": "D:\\Dot NET\\Recrutment\\Recrutment\\wwwroot\\Template\\public\\assets\\img\\illustrations\\search.png",
+      "PackagePath": "staticwebassets\\Template\\public\\assets\\img\\illustrations\\search.png"
+    },
+    {
+      "Id": "D:\\Dot NET\\Recrutment\\Recrutment\\wwwroot\\Template\\public\\assets\\img\\logo.png",
+      "PackagePath": "staticwebassets\\Template\\public\\assets\\img\\logo.png"
+    },
+    {
+      "Id": "D:\\Dot NET\\Recrutment\\Recrutment\\wwwroot\\Template\\public\\assets\\js\\bootstrap-navbar.js",
+      "PackagePath": "staticwebassets\\Template\\public\\assets\\js\\bootstrap-navbar.js"
+    },
+    {
+      "Id": "D:\\Dot NET\\Recrutment\\Recrutment\\wwwroot\\Template\\public\\assets\\js\\theme.js",
+      "PackagePath": "staticwebassets\\Template\\public\\assets\\js\\theme.js"
+    },
+    {
+      "Id": "D:\\Dot NET\\Recrutment\\Recrutment\\wwwroot\\Template\\public\\assets\\js\\theme.js.map",
+      "PackagePath": "staticwebassets\\Template\\public\\assets\\js\\theme.js.map"
+    },
+    {
+      "Id": "D:\\Dot NET\\Recrutment\\Recrutment\\wwwroot\\Template\\public\\assets\\js\\theme.min.js",
+      "PackagePath": "staticwebassets\\Template\\public\\assets\\js\\theme.min.js"
+    },
+    {
+      "Id": "D:\\Dot NET\\Recrutment\\Recrutment\\wwwroot\\Template\\public\\assets\\js\\theme.min.js.map",
+      "PackagePath": "staticwebassets\\Template\\public\\assets\\js\\theme.min.js.map"
+    },
+    {
+      "Id": "D:\\Dot NET\\Recrutment\\Recrutment\\wwwroot\\Template\\public\\assets\\video\\.gitkeep",
+      "PackagePath": "staticwebassets\\Template\\public\\assets\\video\\.gitkeep"
+    },
+    {
+      "Id": "D:\\Dot NET\\Recrutment\\Recrutment\\wwwroot\\Template\\public\\assets\\video\\beach.jpg",
+      "PackagePath": "staticwebassets\\Template\\public\\assets\\video\\beach.jpg"
+    },
+    {
+      "Id": "D:\\Dot NET\\Recrutment\\Recrutment\\wwwroot\\Template\\public\\assets\\video\\beach.mp4",
+      "PackagePath": "staticwebassets\\Template\\public\\assets\\video\\beach.mp4"
+    },
+    {
+      "Id": "D:\\Dot NET\\Recrutment\\Recrutment\\wwwroot\\Template\\public\\assets\\video\\beach.webm",
+      "PackagePath": "staticwebassets\\Template\\public\\assets\\video\\beach.webm"
+    },
+    {
+      "Id": "D:\\Dot NET\\Recrutment\\Recrutment\\wwwroot\\Template\\public\\index.html",
+      "PackagePath": "staticwebassets\\Template\\public\\index.html"
+    },
+    {
+      "Id": "D:\\Dot NET\\Recrutment\\Recrutment\\wwwroot\\Template\\public\\vendors\\@popperjs\\popper.min.js",
+      "PackagePath": "staticwebassets\\Template\\public\\vendors\\@popperjs\\popper.min.js"
+    },
+    {
+      "Id": "D:\\Dot NET\\Recrutment\\Recrutment\\wwwroot\\Template\\public\\vendors\\bootstrap\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\Template\\public\\vendors\\bootstrap\\bootstrap.min.js"
+    },
+    {
+      "Id": "D:\\Dot NET\\Recrutment\\Recrutment\\wwwroot\\Template\\public\\vendors\\bootstrap\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\Template\\public\\vendors\\bootstrap\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "D:\\Dot NET\\Recrutment\\Recrutment\\wwwroot\\Template\\public\\vendors\\fontawesome\\all.min.js",
+      "PackagePath": "staticwebassets\\Template\\public\\vendors\\fontawesome\\all.min.js"
+    },
+    {
+      "Id": "D:\\Dot NET\\Recrutment\\Recrutment\\wwwroot\\Template\\public\\vendors\\is\\is.min.js",
+      "PackagePath": "staticwebassets\\Template\\public\\vendors\\is\\is.min.js"
+    },
+    {
+      "Id": "D:\\Dot NET\\Recrutment\\Recrutment\\wwwroot\\Template\\src\\js\\bootstrap-navbar.js",
+      "PackagePath": "staticwebassets\\Template\\src\\js\\bootstrap-navbar.js"
+    },
+    {
+      "Id": "D:\\Dot NET\\Recrutment\\Recrutment\\wwwroot\\Template\\src\\js\\detector.js",
+      "PackagePath": "staticwebassets\\Template\\src\\js\\detector.js"
+    },
+    {
+      "Id": "D:\\Dot NET\\Recrutment\\Recrutment\\wwwroot\\Template\\src\\js\\theme.js",
+      "PackagePath": "staticwebassets\\Template\\src\\js\\theme.js"
+    },
+    {
+      "Id": "D:\\Dot NET\\Recrutment\\Recrutment\\wwwroot\\Template\\src\\js\\utils.js",
+      "PackagePath": "staticwebassets\\Template\\src\\js\\utils.js"
+    },
+    {
+      "Id": "D:\\Dot NET\\Recrutment\\Recrutment\\wwwroot\\Template\\src\\pug\\index.pug",
+      "PackagePath": "staticwebassets\\Template\\src\\pug\\index.pug"
+    },
+    {
+      "Id": "D:\\Dot NET\\Recrutment\\Recrutment\\wwwroot\\Template\\src\\pug\\layouts\\Layout.pug",
+      "PackagePath": "staticwebassets\\Template\\src\\pug\\layouts\\Layout.pug"
+    },
+    {
+      "Id": "D:\\Dot NET\\Recrutment\\Recrutment\\wwwroot\\Template\\src\\pug\\layouts\\LayoutTheme.pug",
+      "PackagePath": "staticwebassets\\Template\\src\\pug\\layouts\\LayoutTheme.pug"
+    },
+    {
+      "Id": "D:\\Dot NET\\Recrutment\\Recrutment\\wwwroot\\Template\\src\\pug\\mixins\\Variables.pug",
+      "PackagePath": "staticwebassets\\Template\\src\\pug\\mixins\\Variables.pug"
+    },
+    {
+      "Id": "D:\\Dot NET\\Recrutment\\Recrutment\\wwwroot\\Template\\src\\pug\\mixins\\core\\Background.pug",
+      "PackagePath": "staticwebassets\\Template\\src\\pug\\mixins\\core\\Background.pug"
+    },
+    {
+      "Id": "D:\\Dot NET\\Recrutment\\Recrutment\\wwwroot\\Template\\src\\pug\\mixins\\core\\Functions.pug",
+      "PackagePath": "staticwebassets\\Template\\src\\pug\\mixins\\core\\Functions.pug"
+    },
+    {
+      "Id": "D:\\Dot NET\\Recrutment\\Recrutment\\wwwroot\\Template\\src\\pug\\mixins\\core\\Section.pug",
+      "PackagePath": "staticwebassets\\Template\\src\\pug\\mixins\\core\\Section.pug"
+    },
+    {
+      "Id": "D:\\Dot NET\\Recrutment\\Recrutment\\wwwroot\\Template\\src\\pug\\mixins\\core\\ThemeStyle.pug",
+      "PackagePath": "staticwebassets\\Template\\src\\pug\\mixins\\core\\ThemeStyle.pug"
+    },
+    {
+      "Id": "D:\\Dot NET\\Recrutment\\Recrutment\\wwwroot\\Template\\src\\pug\\mixins\\home\\landing\\Category.pug",
+      "PackagePath": "staticwebassets\\Template\\src\\pug\\mixins\\home\\landing\\Category.pug"
+    },
+    {
+      "Id": "D:\\Dot NET\\Recrutment\\Recrutment\\wwwroot\\Template\\src\\pug\\mixins\\home\\landing\\ComeOnJoin.pug",
+      "PackagePath": "staticwebassets\\Template\\src\\pug\\mixins\\home\\landing\\ComeOnJoin.pug"
+    },
+    {
+      "Id": "D:\\Dot NET\\Recrutment\\Recrutment\\wwwroot\\Template\\src\\pug\\mixins\\home\\landing\\Features.pug",
+      "PackagePath": "staticwebassets\\Template\\src\\pug\\mixins\\home\\landing\\Features.pug"
+    },
+    {
+      "Id": "D:\\Dot NET\\Recrutment\\Recrutment\\wwwroot\\Template\\src\\pug\\mixins\\home\\landing\\FindYourPassion.pug",
+      "PackagePath": "staticwebassets\\Template\\src\\pug\\mixins\\home\\landing\\FindYourPassion.pug"
+    },
+    {
+      "Id": "D:\\Dot NET\\Recrutment\\Recrutment\\wwwroot\\Template\\src\\pug\\mixins\\home\\landing\\Footer.pug",
+      "PackagePath": "staticwebassets\\Template\\src\\pug\\mixins\\home\\landing\\Footer.pug"
+    },
+    {
+      "Id": "D:\\Dot NET\\Recrutment\\Recrutment\\wwwroot\\Template\\src\\pug\\mixins\\home\\landing\\HeroHeader.pug",
+      "PackagePath": "staticwebassets\\Template\\src\\pug\\mixins\\home\\landing\\HeroHeader.pug"
+    },
+    {
+      "Id": "D:\\Dot NET\\Recrutment\\Recrutment\\wwwroot\\Template\\src\\pug\\mixins\\home\\landing\\MillionsOfJobs.pug",
+      "PackagePath": "staticwebassets\\Template\\src\\pug\\mixins\\home\\landing\\MillionsOfJobs.pug"
+    },
+    {
+      "Id": "D:\\Dot NET\\Recrutment\\Recrutment\\wwwroot\\Template\\src\\pug\\mixins\\home\\landing\\Testimonial.pug",
+      "PackagePath": "staticwebassets\\Template\\src\\pug\\mixins\\home\\landing\\Testimonial.pug"
+    },
+    {
+      "Id": "D:\\Dot NET\\Recrutment\\Recrutment\\wwwroot\\Template\\src\\pug\\mixins\\navbars\\NavbarJobest.pug",
+      "PackagePath": "staticwebassets\\Template\\src\\pug\\mixins\\navbars\\NavbarJobest.pug"
+    },
+    {
+      "Id": "D:\\Dot NET\\Recrutment\\Recrutment\\wwwroot\\Template\\src\\scss\\_bootstrap.scss",
+      "PackagePath": "staticwebassets\\Template\\src\\scss\\_bootstrap.scss"
+    },
+    {
+      "Id": "D:\\Dot NET\\Recrutment\\Recrutment\\wwwroot\\Template\\src\\scss\\_user-variables.scss",
+      "PackagePath": "staticwebassets\\Template\\src\\scss\\_user-variables.scss"
+    },
+    {
+      "Id": "D:\\Dot NET\\Recrutment\\Recrutment\\wwwroot\\Template\\src\\scss\\_user.scss",
+      "PackagePath": "staticwebassets\\Template\\src\\scss\\_user.scss"
+    },
+    {
+      "Id": "D:\\Dot NET\\Recrutment\\Recrutment\\wwwroot\\Template\\src\\scss\\theme.css",
+      "PackagePath": "staticwebassets\\Template\\src\\scss\\theme.css"
+    },
+    {
+      "Id": "D:\\Dot NET\\Recrutment\\Recrutment\\wwwroot\\Template\\src\\scss\\theme.css.map",
+      "PackagePath": "staticwebassets\\Template\\src\\scss\\theme.css.map"
+    },
+    {
+      "Id": "D:\\Dot NET\\Recrutment\\Recrutment\\wwwroot\\Template\\src\\scss\\theme.scss",
+      "PackagePath": "staticwebassets\\Template\\src\\scss\\theme.scss"
+    },
+    {
+      "Id": "D:\\Dot NET\\Recrutment\\Recrutment\\wwwroot\\Template\\src\\scss\\theme\\.gitkeep",
+      "PackagePath": "staticwebassets\\Template\\src\\scss\\theme\\.gitkeep"
+    },
+    {
+      "Id": "D:\\Dot NET\\Recrutment\\Recrutment\\wwwroot\\Template\\src\\scss\\theme\\_badge.scss",
+      "PackagePath": "staticwebassets\\Template\\src\\scss\\theme\\_badge.scss"
+    },
+    {
+      "Id": "D:\\Dot NET\\Recrutment\\Recrutment\\wwwroot\\Template\\src\\scss\\theme\\_browser-support.scss",
+      "PackagePath": "staticwebassets\\Template\\src\\scss\\theme\\_browser-support.scss"
+    },
+    {
+      "Id": "D:\\Dot NET\\Recrutment\\Recrutment\\wwwroot\\Template\\src\\scss\\theme\\_button.scss",
+      "PackagePath": "staticwebassets\\Template\\src\\scss\\theme\\_button.scss"
+    },
+    {
+      "Id": "D:\\Dot NET\\Recrutment\\Recrutment\\wwwroot\\Template\\src\\scss\\theme\\_card.scss",
+      "PackagePath": "staticwebassets\\Template\\src\\scss\\theme\\_card.scss"
+    },
+    {
+      "Id": "D:\\Dot NET\\Recrutment\\Recrutment\\wwwroot\\Template\\src\\scss\\theme\\_fonts.scss",
+      "PackagePath": "staticwebassets\\Template\\src\\scss\\theme\\_fonts.scss"
+    },
+    {
+      "Id": "D:\\Dot NET\\Recrutment\\Recrutment\\wwwroot\\Template\\src\\scss\\theme\\_functions.scss",
+      "PackagePath": "staticwebassets\\Template\\src\\scss\\theme\\_functions.scss"
+    },
+    {
+      "Id": "D:\\Dot NET\\Recrutment\\Recrutment\\wwwroot\\Template\\src\\scss\\theme\\_helpers.scss",
+      "PackagePath": "staticwebassets\\Template\\src\\scss\\theme\\_helpers.scss"
+    },
+    {
+      "Id": "D:\\Dot NET\\Recrutment\\Recrutment\\wwwroot\\Template\\src\\scss\\theme\\_hover.scss",
+      "PackagePath": "staticwebassets\\Template\\src\\scss\\theme\\_hover.scss"
+    },
+    {
+      "Id": "D:\\Dot NET\\Recrutment\\Recrutment\\wwwroot\\Template\\src\\scss\\theme\\_icon.scss",
+      "PackagePath": "staticwebassets\\Template\\src\\scss\\theme\\_icon.scss"
+    },
+    {
+      "Id": "D:\\Dot NET\\Recrutment\\Recrutment\\wwwroot\\Template\\src\\scss\\theme\\_mixed.scss",
+      "PackagePath": "staticwebassets\\Template\\src\\scss\\theme\\_mixed.scss"
+    },
+    {
+      "Id": "D:\\Dot NET\\Recrutment\\Recrutment\\wwwroot\\Template\\src\\scss\\theme\\_mixins.scss",
+      "PackagePath": "staticwebassets\\Template\\src\\scss\\theme\\_mixins.scss"
+    },
+    {
+      "Id": "D:\\Dot NET\\Recrutment\\Recrutment\\wwwroot\\Template\\src\\scss\\theme\\_reboot.scss",
+      "PackagePath": "staticwebassets\\Template\\src\\scss\\theme\\_reboot.scss"
+    },
+    {
+      "Id": "D:\\Dot NET\\Recrutment\\Recrutment\\wwwroot\\Template\\src\\scss\\theme\\_search.scss",
+      "PackagePath": "staticwebassets\\Template\\src\\scss\\theme\\_search.scss"
+    },
+    {
+      "Id": "D:\\Dot NET\\Recrutment\\Recrutment\\wwwroot\\Template\\src\\scss\\theme\\_testimonial.scss",
+      "PackagePath": "staticwebassets\\Template\\src\\scss\\theme\\_testimonial.scss"
+    },
+    {
+      "Id": "D:\\Dot NET\\Recrutment\\Recrutment\\wwwroot\\Template\\src\\scss\\theme\\_theme.scss",
+      "PackagePath": "staticwebassets\\Template\\src\\scss\\theme\\_theme.scss"
+    },
+    {
+      "Id": "D:\\Dot NET\\Recrutment\\Recrutment\\wwwroot\\Template\\src\\scss\\theme\\_utilities.scss",
+      "PackagePath": "staticwebassets\\Template\\src\\scss\\theme\\_utilities.scss"
+    },
+    {
+      "Id": "D:\\Dot NET\\Recrutment\\Recrutment\\wwwroot\\Template\\src\\scss\\theme\\_variables.scss",
+      "PackagePath": "staticwebassets\\Template\\src\\scss\\theme\\_variables.scss"
+    },
+    {
+      "Id": "D:\\Dot NET\\Recrutment\\Recrutment\\wwwroot\\Template\\src\\scss\\theme\\helpers\\_background.scss",
+      "PackagePath": "staticwebassets\\Template\\src\\scss\\theme\\helpers\\_background.scss"
+    },
+    {
+      "Id": "D:\\Dot NET\\Recrutment\\Recrutment\\wwwroot\\Template\\src\\scss\\theme\\helpers\\_borders.scss",
+      "PackagePath": "staticwebassets\\Template\\src\\scss\\theme\\helpers\\_borders.scss"
+    },
+    {
+      "Id": "D:\\Dot NET\\Recrutment\\Recrutment\\wwwroot\\Template\\src\\scss\\theme\\helpers\\_colored-links.scss",
+      "PackagePath": "staticwebassets\\Template\\src\\scss\\theme\\helpers\\_colored-links.scss"
+    },
+    {
+      "Id": "D:\\Dot NET\\Recrutment\\Recrutment\\wwwroot\\Template\\src\\scss\\theme\\helpers\\_flex.scss",
+      "PackagePath": "staticwebassets\\Template\\src\\scss\\theme\\helpers\\_flex.scss"
+    },
+    {
+      "Id": "D:\\Dot NET\\Recrutment\\Recrutment\\wwwroot\\Template\\src\\scss\\theme\\helpers\\_position.scss",
+      "PackagePath": "staticwebassets\\Template\\src\\scss\\theme\\helpers\\_position.scss"
+    },
+    {
+      "Id": "D:\\Dot NET\\Recrutment\\Recrutment\\wwwroot\\Template\\src\\scss\\theme\\helpers\\_shadow.scss",
+      "PackagePath": "staticwebassets\\Template\\src\\scss\\theme\\helpers\\_shadow.scss"
+    },
+    {
+      "Id": "D:\\Dot NET\\Recrutment\\Recrutment\\wwwroot\\Template\\src\\scss\\theme\\helpers\\_text.scss",
+      "PackagePath": "staticwebassets\\Template\\src\\scss\\theme\\helpers\\_text.scss"
+    },
+    {
+      "Id": "D:\\Dot NET\\Recrutment\\Recrutment\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "D:\\Dot NET\\Recrutment\\Recrutment\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "D:\\Dot NET\\Recrutment\\Recrutment\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "D:\\Dot NET\\Recrutment\\Recrutment\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "D:\\Dot NET\\Recrutment\\Recrutment\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "D:\\Dot NET\\Recrutment\\Recrutment\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "D:\\Dot NET\\Recrutment\\Recrutment\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "D:\\Dot NET\\Recrutment\\Recrutment\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "D:\\Dot NET\\Recrutment\\Recrutment\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "D:\\Dot NET\\Recrutment\\Recrutment\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "D:\\Dot NET\\Recrutment\\Recrutment\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "D:\\Dot NET\\Recrutment\\Recrutment\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\Dot NET\\Recrutment\\Recrutment\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "D:\\Dot NET\\Recrutment\\Recrutment\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "D:\\Dot NET\\Recrutment\\Recrutment\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "D:\\Dot NET\\Recrutment\\Recrutment\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "D:\\Dot NET\\Recrutment\\Recrutment\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "D:\\Dot NET\\Recrutment\\Recrutment\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "D:\\Dot NET\\Recrutment\\Recrutment\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "D:\\Dot NET\\Recrutment\\Recrutment\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\Dot NET\\Recrutment\\Recrutment\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "D:\\Dot NET\\Recrutment\\Recrutment\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "D:\\Dot NET\\Recrutment\\Recrutment\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "D:\\Dot NET\\Recrutment\\Recrutment\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "D:\\Dot NET\\Recrutment\\Recrutment\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "D:\\Dot NET\\Recrutment\\Recrutment\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "D:\\Dot NET\\Recrutment\\Recrutment\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "D:\\Dot NET\\Recrutment\\Recrutment\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\Dot NET\\Recrutment\\Recrutment\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "D:\\Dot NET\\Recrutment\\Recrutment\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "D:\\Dot NET\\Recrutment\\Recrutment\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\Dot NET\\Recrutment\\Recrutment\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "D:\\Dot NET\\Recrutment\\Recrutment\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "D:\\Dot NET\\Recrutment\\Recrutment\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "D:\\Dot NET\\Recrutment\\Recrutment\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "D:\\Dot NET\\Recrutment\\Recrutment\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\Dot NET\\Recrutment\\Recrutment\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "D:\\Dot NET\\Recrutment\\Recrutment\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "D:\\Dot NET\\Recrutment\\Recrutment\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "D:\\Dot NET\\Recrutment\\Recrutment\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "D:\\Dot NET\\Recrutment\\Recrutment\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "D:\\Dot NET\\Recrutment\\Recrutment\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "D:\\Dot NET\\Recrutment\\Recrutment\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "D:\\Dot NET\\Recrutment\\Recrutment\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "D:\\Dot NET\\Recrutment\\Recrutment\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "D:\\Dot NET\\Recrutment\\Recrutment\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "D:\\Dot NET\\Recrutment\\Recrutment\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "D:\\Dot NET\\Recrutment\\Recrutment\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "D:\\Dot NET\\Recrutment\\Recrutment\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\Dot NET\\Recrutment\\Recrutment\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "D:\\Dot NET\\Recrutment\\Recrutment\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "D:\\Dot NET\\Recrutment\\Recrutment\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "D:\\Dot NET\\Recrutment\\Recrutment\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "D:\\Dot NET\\Recrutment\\Recrutment\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "D:\\Dot NET\\Recrutment\\Recrutment\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "D:\\Dot NET\\Recrutment\\Recrutment\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "D:\\Dot NET\\Recrutment\\Recrutment\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\Dot NET\\Recrutment\\Recrutment\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "D:\\Dot NET\\Recrutment\\Recrutment\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "D:\\Dot NET\\Recrutment\\Recrutment\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.Recrutment.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.Recrutment.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.build.Recrutment.props",
+      "PackagePath": "build\\Recrutment.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.buildMultiTargeting.Recrutment.props",
+      "PackagePath": "buildMultiTargeting\\Recrutment.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.buildTransitive.Recrutment.props",
+      "PackagePath": "buildTransitive\\Recrutment.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

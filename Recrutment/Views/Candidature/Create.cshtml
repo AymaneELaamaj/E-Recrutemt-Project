@@ -1,0 +1,88 @@
+﻿@model Candidature
+@{
+    ViewData["Title"] = "Nouvelle Candidature";
+}
+
+<div class="container mt-4">
+    <div class="d-flex justify-content-between align-items-center mb-4">
+        <h2>Nouvelle Candidature</h2>
+    </div>
+
+    <div class="card">
+        <div class="card-body">
+            <div class="row mb-4">
+                <div class="col-md-12">
+                    @if (Model?.Offre != null)
+                    {
+                        <h4>@Model.Offre.Poste</h4>
+                        <p class="text-muted">@Model.Offre.Recruteur.Nom</p>
+                    }
+                    else
+                    {
+                        <p>Erreur : l'offre n'a pas été trouvée.</p>
+                    }
+                </div>
+            </div>
+
+            <div class="row mb-4">
+                <div class="col-md-6">
+                    <div class="card bg-light">
+                        <div class="card-body">
+                            <h5>Détails du poste</h5>
+                            <@if (Model?.Offre != null)
+                            {
+                                <p><strong>Type de contrat :</strong> @Model.Offre.TypeContrat</p>
+                                <p><strong>Secteur :</strong> @Model.Offre.Secteur</p>
+                                 <p><strong>Rémunération :</strong> @Model.Offre.Remuneration €</p>
+                            }
+                            else
+                            {
+                                <p>Erreur : l'offre n'a pas été trouvée.</p>
+                            }
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <form asp-action="Create" method="post">
+                <input type="hidden" asp-for="OffreId" value="@Model.OffreId" />
+                <input type="hidden" asp-for="CandidatId" value="1" /> <!-- Ajoutez ceci pour tester -->
+
+
+                <div class="alert alert-info">
+                    <i class="fas fa-info-circle me-2"></i>
+                    En postulant à cette offre :
+                    <ul class="mb-0 mt-2">
+                        <li>Votre CV sera transmis au recruteur</li>
+                        <li>Vous serez notifié par email des mises à jour de votre candidature</li>
+                    </ul>
+                </div>
+
+                @if (!ViewData.ModelState.IsValid)
+                {
+                    <div class="alert alert-danger">
+                        <div asp-validation-summary="All" class="text-danger"></div>
+                    </div>
+                }
+
+                <div class="form-check mb-4">
+                    <input class="form-check-input" type="checkbox" required id="confirmCheck">
+                    <label class="form-check-label" for="confirmCheck">
+                        Je confirme avoir pris connaissance des informations ci-dessus
+                    </label>
+                </div>
+
+                <div class="mt-4">
+                    <button type="submit" class="btn btn-success">
+                        <i class="fas fa-paper-plane me-2"></i>Envoyer ma candidature
+                    </button>
+                    <a asp-controller="Offre" asp-action="Details" asp-route-id="@Model.OffreId"
+                       class="btn btn-outline-secondary ms-2">
+                        Retour à l'offre
+                    </a>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+

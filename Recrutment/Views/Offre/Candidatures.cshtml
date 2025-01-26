@@ -1,0 +1,38 @@
+﻿@model Offre
+
+@{
+    ViewData["Title"] = "Candidatures pour l'offre " + Model.Poste;
+}
+
+<h1>@ViewData["Title"]</h1>
+
+@if (Model.Candidatures.Count == 0)
+{
+    <p>Aucun candidat n'a postulé pour cette offre.</p>
+}
+else
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Nom du Candidat</th>
+                <th>Email</th>
+                <th>Date de Postulation</th>
+                @* <th>CV</th> *@
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var candidature in Model.Candidatures)
+            {
+                <tr>
+                    <td>@candidature.Candidat.Nom</td>
+                    <td>@candidature.Candidat.Diplome</td>
+                    <td>@candidature.DatePostulation.ToString("dd/MM/yyyy")</td>
+                    <td>
+                       @* <a href="@Url.Content("~/CV/" + candidature.CVPath)" target="_blank">Télécharger</a> *@
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}

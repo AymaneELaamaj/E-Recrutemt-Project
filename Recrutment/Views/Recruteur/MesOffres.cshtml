@@ -1,0 +1,24 @@
+﻿@model IEnumerable<Recrutment.Models.Offre>
+<h2>Mes Offres</h2>
+<table>
+    <thead>
+        <tr>
+            <th>Poste</th>
+            <th>Secteur</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var offre in Model)
+        {
+            <tr>
+                <td>@offre.Poste</td>
+                <td>@offre.Secteur</td>
+                <td>
+                    <a asp-action="ModifierOffre" asp-route-id="@offre.Id">Modifier</a> |
+                    <a asp-action="SupprimerOffre" asp-route-id="@offre.Id">Supprimer</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

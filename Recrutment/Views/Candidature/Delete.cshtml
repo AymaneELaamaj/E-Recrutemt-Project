@@ -1,0 +1,37 @@
+﻿@model Candidature
+@{
+    ViewData["Title"] = "Annuler la candidature";
+}
+
+<div class="container mt-4">
+    <h2>Annuler la candidature</h2>
+
+    <div class="card">
+        <div class="card-body">
+            <h4>Êtes-vous sûr de vouloir annuler cette candidature ?</h4>
+
+            <div class="alert alert-warning">
+                Cette action est irréversible. Vous devrez postuler à nouveau si vous changez d'avis.
+            </div>
+
+            <div class="mt-3">
+                <dl class="row">
+                    <dt class="col-sm-3">Poste</dt>
+                    <dd class="col-sm-9">@Model.Offre.Poste</dd>
+
+                    <dt class="col-sm-3">Entreprise</dt>
+                    <dd class="col-sm-9">@Model.Offre.Recruteur.Nom</dd>
+
+                    <dt class="col-sm-3">Date de candidature</dt>
+                    <dd class="col-sm-9">@Model.DatePostulation.ToString("dd/MM/yyyy")</dd>
+                </dl>
+            </div>
+
+            <form asp-action="DeleteConfirmed" method="post">
+                <input type="hidden" asp-for="Id" />
+                <button type="submit" class="btn btn-danger">Confirmer l'annulation</button>
+                <a asp-action="Index" class="btn btn-secondary">Retour à la liste</a>
+            </form>
+        </div>
+    </div>
+</div>

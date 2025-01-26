@@ -1,0 +1,40 @@
+﻿@model IEnumerable<Recrutment.Models.Candidats>
+
+<h2>Liste des Candidats</h2>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Nom</th>
+            <th>Prénom</th>
+            <th>Âge</th>
+            <th>Titre</th>
+            <th>Diplôme</th>
+            <th>Années d'expérience</th>
+            <th>CV</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var candidat in Model)
+        {
+            <tr>
+                <td>@candidat.Nom</td>
+                <td>@candidat.Prenom</td>
+                <td>@candidat.Age</td>
+                <td>@candidat.Titre</td>
+                <td>@candidat.Diplome</td>
+                <td>@candidat.AnneeExperience</td>
+                <td>
+                    @if (!string.IsNullOrEmpty(candidat.CV))
+                    {
+                        <a href="@Url.Content(candidat.CV)" target="_blank">Voir CV</a>
+                    }
+                    else
+                    {
+                        <span>Non disponible</span>
+                    }
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

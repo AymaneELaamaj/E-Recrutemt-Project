@@ -1,0 +1,69 @@
+﻿@model IEnumerable<Recrutment.Models.Offre>
+
+@{
+    ViewData["Title"] = "Liste des offres";
+}
+
+<!-- Section Title -->
+<h2 class="text-center text-dark mb-5">@ViewData["Title"]</h2>
+
+<div class="container">
+    <div class="row">
+        @foreach (var offre in Model)
+        {
+            <div class="col-md-4 mb-4">
+                <div class="card shadow-sm border-0 rounded-3">
+                    <div class="card-body">
+                        <!-- Header Section: Poste & Recruteur -->
+                        <div class="d-flex align-items-center mb-3">
+                            <div class="avatar bg-primary text-white rounded-circle d-flex justify-content-center align-items-center" style="width: 50px; height: 50px; font-size: 22px;">
+                                <i class="bi bi-briefcase"></i>
+                            </div>
+                            <div class="ms-3">
+                                <h5 class="card-title fw-bold mb-0">@offre.Poste</h5>
+                                <p class="text-muted mb-0" style="font-size: 14px;">Par @offre.Recruteur?.Nom</p>
+                            </div>
+                        </div>
+
+                        <!-- Description Section -->
+                        <p class="text-muted" style="font-size: 15px;">
+                            <strong>Secteur :</strong> @offre.Secteur<br />
+                            <strong>Type de Contrat :</strong> @offre.TypeContrat<br />
+                            <strong>Profil Recherché :</strong> @offre.Profil<br />
+                            <strong>Rémunération :</strong> @offre.Remuneration.ToString("C")
+                        </p>
+
+                        <!-- Footer Section: Buttons -->
+                        <div class="d-flex justify-content-between align-items-center mt-4">
+                            <a class="btn btn-outline-primary btn-sm px-4" asp-controller="Offre" asp-action="Details" asp-route-id="@offre.Id">
+                                <i class="bi bi-eye"></i> Voir détails
+                            </a>
+                            <div>
+                                <a class="btn btn-outline-success btn-sm me-2" asp-controller="Candidats" asp-action="Create" asp-route-id="@offre.Id">
+                                    <i class="bi bi-send-fill"></i> Postuler
+                                </a>
+                                <a class="btn btn-outline-danger btn-sm" href="@Url.Action("Delete", new { id = offre.Id })">
+                                    <i class="bi bi-trash"></i> Supprimer
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+    <div class="col-md-4">
+        <a href="@Url.Action("Statistiques", "Offre")" class="btn btn-info btn-block">Consulter les Statistiques</a>
+    </div>
+    
+    <div class="mt-4 text-center">
+    <a class="btn btn-info btn-lg" asp-area="" asp-controller="Offre" asp-action="Create">
+        <i class="bi bi-plus-circle"></i> Créer une nouvelle offre
+    </a>
+</div>
+</div>
+
+<!-- Create Offer Button -->
+
+
+
