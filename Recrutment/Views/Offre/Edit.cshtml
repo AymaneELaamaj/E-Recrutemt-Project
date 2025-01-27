@@ -10,41 +10,41 @@
     <input asp-for="Id" type="hidden" />
 
     <div class="form-group">
-        <label for="Poste">Poste</label>
+        <label asp-for="Poste"></label>
         <input asp-for="Poste" class="form-control" />
         <span asp-validation-for="Poste" class="text-danger"></span>
     </div>
 
     <div class="form-group">
-        <label for="Secteur">Secteur</label>
+        <label asp-for="Secteur"></label>
         <input asp-for="Secteur" class="form-control" />
         <span asp-validation-for="Secteur" class="text-danger"></span>
     </div>
 
     <div class="form-group">
-        <label for="TypeContrat">Type de contrat</label>
+        <label asp-for="TypeContrat"></label>
         <input asp-for="TypeContrat" class="form-control" />
         <span asp-validation-for="TypeContrat" class="text-danger"></span>
     </div>
 
     <div class="form-group">
-        <label for="Profil">Profil</label>
+        <label asp-for="Profil"></label>
         <input asp-for="Profil" class="form-control" />
         <span asp-validation-for="Profil" class="text-danger"></span>
     </div>
 
     <div class="form-group">
-        <label for="Remuneration">Rémunération</label>
+        <label asp-for="Remuneration"></label>
         <input asp-for="Remuneration" type="number" class="form-control" />
         <span asp-validation-for="Remuneration" class="text-danger"></span>
     </div>
 
     <div class="form-group">
-        <label for="IdRecruteur">Recruteur</label>
-        <select asp-for="IdRecruteur" class="form-control" asp-items="@(new SelectList(ViewBag.Recruteurs, "Id", "Nom"))"></select>
-        <span asp-validation-for="IdRecruteur" class="text-danger"></span>
+        <label asp-for="ApplicationUserId"></label>
+        <select asp-for="ApplicationUserId" class="form-control" asp-items="@(new SelectList(ViewBag.Recruteurs, "Id", "Nom"))"></select>
+        <span asp-validation-for="ApplicationUserId" class="text-danger"></span>
     </div>
 
     <button type="submit" class="btn btn-primary">Enregistrer</button>
-    <a class="btn btn-secondary" asp-area="" asp-controller="Offre" asp-action="Index">Anuller</a>
+    <a class="btn btn-secondary" asp-area="" asp-controller="Offre" asp-action="Index">Annuler</a>
 </form>

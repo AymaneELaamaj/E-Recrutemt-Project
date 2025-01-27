@@ -8,7 +8,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 namespace Recrutment.Migrations
 {
     /// <inheritdoc />
-    public partial class FIrsteCreate : Migration
+    public partial class InitailMigration : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
@@ -34,8 +34,7 @@ namespace Recrutment.Migrations
                     Id = table.Column<string>(type: "nvarchar(450)", nullable: false),
                     Discriminator = table.Column<string>(type: "nvarchar(21)", maxLength: 21, nullable: false),
                     Nom = table.Column<string>(type: "nvarchar(max)", nullable: true),
-                    Adresse = table.Column<string>(type: "nvarchar(max)", nullable: true),
-                    CodePostal = table.Column<string>(type: "nvarchar(max)", nullable: true),
+                    Tel = table.Column<string>(type: "nvarchar(max)", nullable: true),
                     UserName = table.Column<string>(type: "nvarchar(256)", maxLength: 256, nullable: true),
                     NormalizedUserName = table.Column<string>(type: "nvarchar(256)", maxLength: 256, nullable: true),
                     Email = table.Column<string>(type: "nvarchar(256)", maxLength: 256, nullable: true),
@@ -69,8 +68,7 @@ namespace Recrutment.Migrations
                     Diplome = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     AnneeExperience = table.Column<int>(type: "int", nullable: false),
                     CV = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    Email = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    Password = table.Column<string>(type: "nvarchar(max)", nullable: false)
+                    Email = table.Column<string>(type: "nvarchar(max)", nullable: false)
                 },
                 constraints: table =>
                 {
@@ -205,22 +203,28 @@ namespace Recrutment.Migrations
                 {
                     Id = table.Column<int>(type: "int", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
-                    IdRecruteur = table.Column<int>(type: "int", nullable: false),
                     TypeContrat = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     Secteur = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     Profil = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     Poste = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    Remuneration = table.Column<int>(type: "int", nullable: false)
+                    Remuneration = table.Column<int>(type: "int", nullable: false),
+                    ApplicationUserId = table.Column<string>(type: "nvarchar(450)", nullable: false),
+                    RecruteurId = table.Column<int>(type: "int", nullable: true)
                 },
                 constraints: table =>
                 {
                     table.PrimaryKey("PK_Offres", x => x.Id);
                     table.ForeignKey(
-                        name: "FK_Offres_Recruteurs_IdRecruteur",
-                        column: x => x.IdRecruteur,
-                        principalTable: "Recruteurs",
+                        name: "FK_Offres_AspNetUsers_ApplicationUserId",
+                        column: x => x.ApplicationUserId,
+                        principalTable: "AspNetUsers",
                         principalColumn: "Id",
                         onDelete: ReferentialAction.Cascade);
+                    table.ForeignKey(
+                        name: "FK_Offres_Recruteurs_RecruteurId",
+                        column: x => x.RecruteurId,
+                        principalTable: "Recruteurs",
+                        principalColumn: "Id");
                 });
 
             migrationBuilder.CreateTable(
@@ -252,20 +256,20 @@ namespace Recrutment.Migrations
 
             migrationBuilder.InsertData(
                 table: "AspNetUsers",
-                columns: new[] { "Id", "AccessFailedCount", "Adresse", "CodePostal", "ConcurrencyStamp", "Discriminator", "Email", "EmailConfirmed", "LockoutEnabled", "LockoutEnd", "Nom", "NormalizedEmail", "NormalizedUserName", "PasswordHash", "PhoneNumber", "PhoneNumberConfirmed", "SecurityStamp", "TwoFactorEnabled", "UserName" },
+                columns: new[] { "Id", "AccessFailedCount", "ConcurrencyStamp", "Discriminator", "Email", "EmailConfirmed", "LockoutEnabled", "LockoutEnd", "Nom", "NormalizedEmail", "NormalizedUserName", "PasswordHash", "PhoneNumber", "PhoneNumberConfirmed", "SecurityStamp", "Tel", "TwoFactorEnabled", "UserName" },
                 values: new object[,]
                 {
-                    { "userId1", 0, "Rue de Paris", "75000", "36796170-d6e3-4b8f-b120-21197cb8bcd1", "ApplicationUser", null, false, false, null, "jean.dupont@email.com", null, null, null, null, false, "0746ccc9-50fb-422e-b1bd-0d2a549f423f", false, null },
-                    { "userId2", 0, "Rue de Rabat", "10000", "0da9896c-f8b3-4e46-b890-c24e4c4be6f8", "ApplicationUser", null, false, false, null, "aymane.elaamaj@email.com", null, null, null, null, false, "430962d3-2738-4943-a425-07db281ac0f8", false, null }
+                    { "userId1", 0, "6ee0fc58-8c14-4ee3-8d5e-54e55945cb42", "ApplicationUser", "jean.dupont@email.com", false, false, null, "Jean Dupont", null, null, null, null, false, "8ca4fb1b-2851-4d2a-8367-fa918b91c57f", "0123456789", false, "jean.dupont@email.com" },
+                    { "userId2", 0, "d9b230e7-4cbd-4345-a956-ed6c5b9bae28", "ApplicationUser", "aymane.elaamaj@email.com", false, false, null, "Aymane Elaamaj", null, null, null, null, false, "75a2eddb-06a1-4773-8fcf-ee2fea9ca196", "0624579", false, "aymane.elaamaj@email.com" }
                 });
 
             migrationBuilder.InsertData(
                 table: "Candidats",
-                columns: new[] { "Id", "Age", "AnneeExperience", "CV", "Diplome", "Email", "Nom", "Password", "Prenom", "Titre" },
+                columns: new[] { "Id", "Age", "AnneeExperience", "CV", "Diplome", "Email", "Nom", "Prenom", "Titre" },
                 values: new object[,]
                 {
-                    { 1, 30, 5, "http://example.com/cv/alice.pdf", "Master en Informatique", "aymaneamg300@email.com", "Alice", "Aymaneelaamaj123", "Martin", "Ingénieur" },
-                    { 2, 28, 3, "http://example.com/cv/paul.pdf", "BTS en Réseaux", "aymaneelaamaj123456@email.com", "Paul", "Aymaneelaamaj12334", "Dupuis", "Technicien" }
+                    { 1, 30, 5, "http://example.com/cv/alice.pdf", "Master en Informatique", "aymaneamg300@email.com", "Alice", "Martin", "Ingénieur" },
+                    { 2, 28, 3, "http://example.com/cv/paul.pdf", "BTS en Réseaux", "aymaneelaamaj123456@email.com", "Paul", "Dupuis", "Technicien" }
                 });
 
             migrationBuilder.InsertData(
@@ -279,11 +283,11 @@ namespace Recrutment.Migrations
 
             migrationBuilder.InsertData(
                 table: "Offres",
-                columns: new[] { "Id", "IdRecruteur", "Poste", "Profil", "Remuneration", "Secteur", "TypeContrat" },
+                columns: new[] { "Id", "ApplicationUserId", "Poste", "Profil", "RecruteurId", "Remuneration", "Secteur", "TypeContrat" },
                 values: new object[,]
                 {
-                    { 1, 1, "Développeur Backend", "Développeur Full Stack", 45000, "Informatique", "CDI" },
-                    { 2, 1, "Community Manager", "Chargé de communication", 30000, "Marketing", "CDD" }
+                    { 1, "userId1", "Développeur Backend", "Développeur Full Stack", null, 45000, "Informatique", "CDI" },
+                    { 2, "userId1", "Community Manager", "Chargé de communication", null, 30000, "Marketing", "CDD" }
                 });
 
             migrationBuilder.InsertData(
@@ -345,9 +349,14 @@ namespace Recrutment.Migrations
                 column: "OffreId");
 
             migrationBuilder.CreateIndex(
-                name: "IX_Offres_IdRecruteur",
+                name: "IX_Offres_ApplicationUserId",
                 table: "Offres",
-                column: "IdRecruteur");
+                column: "ApplicationUserId");
+
+            migrationBuilder.CreateIndex(
+                name: "IX_Offres_RecruteurId",
+                table: "Offres",
+                column: "RecruteurId");
         }
 
         /// <inheritdoc />
@@ -375,13 +384,13 @@ namespace Recrutment.Migrations
                 name: "AspNetRoles");
 
             migrationBuilder.DropTable(
-                name: "AspNetUsers");
-
-            migrationBuilder.DropTable(
                 name: "Candidats");
 
             migrationBuilder.DropTable(
                 name: "Offres");
+
+            migrationBuilder.DropTable(
+                name: "AspNetUsers");
 
             migrationBuilder.DropTable(
                 name: "Recruteurs");

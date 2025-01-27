@@ -29,13 +29,17 @@
                             <a class="nav-link text-dark" asp-area="" asp-controller="Candidature" asp-action="Index">Espace Candidature</a>
                         </li>
                         
-                        
-                            
-                            <li class="nav-item">
-                                <a class="nav-link text-dark" asp-area="" asp-controller="Recruteur" asp-action="Index">Espace Recruteur</a>
-                            </li>
-                            
-                        
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Candidature" asp-action="GetCandidaturesByRecruteur">Mes Candidature</a>
+                        </li>    
+                       
+                         <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Recruteur" asp-action="Index">List Recruteur</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Offre" asp-action="MesOffres"> Mon Espace Recruteur</a>
+                        </li>
 
                     </ul>
                     <partial name="_LoginPartial.cshtml" />

@@ -1,0 +1,38 @@
+﻿@model IEnumerable<Recrutment.Models.Offre>
+
+<h2>Mes Offres</h2>
+
+@if (!Model.Any())
+{
+    <p>Aucune offre disponible.</p>
+}
+else
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Poste</th>
+                <th>Secteur</th>
+                <th>Type de contrat</th>
+                <th>Rémunération</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var offre in Model)
+            {
+                <tr>
+                    <td>@offre.Poste</td>
+                    <td>@offre.Secteur</td>
+                    <td>@offre.TypeContrat</td>
+                    <td>@offre.Remuneration</td>
+                    <td>
+                        <a href="@Url.Action("Details", "Offre", new { id = offre.Id })" class="btn btn-info">Voir</a>
+                        <a href="@Url.Action("Edit", "Offre", new { id = offre.Id })" class="btn btn-warning">Modifier</a>
+                        <a href="@Url.Action("Delete", "Offre", new { id = offre.Id })" class="btn btn-danger">Supprimer</a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}

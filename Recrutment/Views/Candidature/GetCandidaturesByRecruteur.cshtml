@@ -1,0 +1,31 @@
+﻿@model IEnumerable<Recrutment.Models.Candidature>
+
+<h2>Mes Candidatures</h2>
+
+@if (!Model.Any())
+{
+    <p>Aucune candidature trouvée.</p>
+}
+else
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Nom du Candidat</th>
+                <th>Offre</th>
+                
+                <th>Date de Candidature</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var candidature in Model)
+            {
+                <tr>
+                    <td>@candidature.Candidat?.Nom</td>
+                    <td>@candidature.Offre?.Poste</td>
+                    <td>@candidature.DatePostulation</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}

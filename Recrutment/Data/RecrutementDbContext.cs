@@ -5,7 +5,7 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Diagnostics;
 namespace Recrutment.Data
 {
-    public class RecrutementDbContext: IdentityDbContext<IdentityUser>
+    public class RecrutementDbContext : IdentityDbContext<IdentityUser>
     {
         public DbSet<Offre> Offres { get; set; }
         public DbSet<Recruteur> Recruteurs { get; set; }
@@ -32,9 +32,10 @@ namespace Recrutment.Data
 
             // Configuration des relations entre les entités (si nécessaire)
             modelBuilder.Entity<Offre>()
-               .HasOne(o => o.Recruteur)
-               .WithMany(r => r.Offres)
-               .HasForeignKey(o => o.IdRecruteur);
+                .HasOne(o => o.Recruteur)
+                .WithMany(r => r.Offres)
+                .HasForeignKey(o => o.ApplicationUserId)
+                .OnDelete(DeleteBehavior.Cascade);
 
             modelBuilder.Entity<Candidature>()
                         .HasOne(c => c.Candidat)
@@ -49,27 +50,27 @@ namespace Recrutment.Data
             modelBuilder.Entity<Candidats>().HasData(
             new Candidats
             {
-               Id = 1,
-               Nom = "Alice",
-               Prenom = "Martin",
-               Age = 30,
-               Titre = "Ingénieur",
-               Diplome = "Master en Informatique",
+                Id = 1,
+                Nom = "Alice",
+                Prenom = "Martin",
+                Age = 30,
+                Titre = "Ingénieur",
+                Diplome = "Master en Informatique",
                 AnneeExperience = 5,
                 Email = "aymaneamg300@email.com",
                 CV = "http://example.com/cv/alice.pdf"
             },
             new Candidats
             {
-            Id = 2,
-            Nom = "Paul",
-            Prenom = "Dupuis",
-            Age = 28,
-            Titre = "Technicien",
-            Diplome = "BTS en Réseaux",
-            AnneeExperience = 3,
-            Email = "aymaneelaamaj123456@email.com",
-             CV = "http://example.com/cv/paul.pdf"
+                Id = 2,
+                Nom = "Paul",
+                Prenom = "Dupuis",
+                Age = 28,
+                Titre = "Technicien",
+                Diplome = "BTS en Réseaux",
+                AnneeExperience = 3,
+                Email = "aymaneelaamaj123456@email.com",
+                CV = "http://example.com/cv/paul.pdf"
             });
 
             modelBuilder.Entity<Candidature>().HasData(
@@ -107,13 +108,32 @@ namespace Recrutment.Data
                     MotDePasse = "aymaneelaamaj",
                 }
                 );
-            
+
+            modelBuilder.Entity<ApplicationUser>().HasData(
+                new ApplicationUser
+                {
+                    Id = "userId1",
+                    UserName = "jean.dupont@email.com",
+                    Email = "jean.dupont@email.com",
+                    Nom = "Jean Dupont",
+                    Tel = "0123456789",
+                    // N'oubliez pas de gérer les mots de passe via Identity !
+                },
+                 new ApplicationUser
+                 {
+                     Id = "userId2",
+                     UserName = "aymane.elaamaj@email.com",
+                     Email = "aymane.elaamaj@email.com",
+                     Nom = "Aymane Elaamaj",
+                     Tel = "0624579",
+                 }
+);
 
             modelBuilder.Entity<Offre>().HasData(
                 new Offre
                 {
                     Id = 1,
-                    IdRecruteur = 1,
+                    ApplicationUserId = "userId1",
                     TypeContrat = "CDI",
                     Secteur = "Informatique",
                     Profil = "Développeur Full Stack",
@@ -123,29 +143,16 @@ namespace Recrutment.Data
                 new Offre
                 {
                     Id = 2,
-                    IdRecruteur = 1,
+                    ApplicationUserId = "userId1",
                     TypeContrat = "CDD",
                     Secteur = "Marketing",
                     Profil = "Chargé de communication",
                     Poste = "Community Manager",
                     Remuneration = 30000
-                });
-                    modelBuilder.Entity<ApplicationUser>().HasData(
-                    new ApplicationUser
-                    {
-                        Id = "userId1",
-                        Nom = "jean.dupont@email.com",
-                        Adresse = "Rue de Paris",
-                        CodePostal = "75000",
-                      },
-                     new ApplicationUser
-                     {
-                      Id = "userId2",
-                      Nom = "aymane.elaamaj@email.com",
-                         Adresse = "Rue de Rabat",
-                         CodePostal = "10000",
-                      }
-);
+                }
+            );
+
+
 
 
         }

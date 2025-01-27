@@ -1,33 +1,48 @@
-﻿using Microsoft.AspNetCore.Authorization;
+﻿using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using Recrutment.Data;
 using Recrutment.Models;
+using System.Linq;
 using System.Threading.Tasks;
-using Microsoft.AspNetCore.Identity;
-using Recrutment.Service;
 
 namespace Recrutment.Controllers
 {
     public class RecruteurController : Controller
     {
         private readonly RecrutementDbContext _context;
-        private readonly UserManager<ApplicationUser> _userManager;
-        private readonly IOffreService _offreService;
+        private readonly UserManager<ApplicationUser> _userManager; // Utilisateur géré par Identity
+        private readonly RoleManager<IdentityRole> _roleManager; // Gestion des rôles
 
-        public RecruteurController(RecrutementDbContext context, UserManager<ApplicationUser> userManager, IOffreService offreService)
+        public RecruteurController(RecrutementDbContext context)
         {
             _context = context;
             _userManager = userManager;
-            _offreService = offreService;
+            _roleManager = roleManager;
         }
 
         // Affiche la liste des recruteurs
         public async Task<IActionResult> Index()
         {
-            var recruteurs = await _context.Recruteurs.Include(r => r.Offres).ToListAsync();
+            // Récupérer le rôle 'Recruteur'
+            var role = await _roleManager.FindByNameAsync("Recruteur");
+
+            if (role == null)
+            {
+                return View("Error", "Le rôle 'Recruteur' n'existe pas.");
+            }
+
+            // Récupérer tous les utilisateurs ayant ce rôle
+            var usersInRole = await _userManager.GetUsersInRoleAsync(role.Name);
+
+            // Sélectionner uniquement l'Id et le UserName
+            var recruteurs = usersInRole.Select(u => new { u.Id, u.UserName, u.Email }).ToList();
+
+            // Passer les recruteurs à la vue
             return View(recruteurs);
         }
+
 
         // Affiche le formulaire pour créer un nouveau recruteur
         public IActionResult Create()
@@ -40,13 +55,11 @@ namespace Recrutment.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create(Recruteur model)
         {
-            if (ModelState.IsValid)
-            {
+            
                 _context.Recruteurs.Add(model);
                 await _context.SaveChangesAsync();
                 return RedirectToAction("Index");
-            }
-            return View(model);
+            
         }
 
         // Affiche le formulaire pour modifier un recruteur
@@ -65,13 +78,11 @@ namespace Recrutment.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Edit(Recruteur model)
         {
-            if (ModelState.IsValid)
-            {
+            
                 _context.Recruteurs.Update(model);
                 await _context.SaveChangesAsync();
                 return RedirectToAction("Index");
-            }
-            return View(model);
+            
         }
 
         // Supprime un recruteur
@@ -87,62 +98,5 @@ namespace Recrutment.Controllers
             }
             return RedirectToAction("Index");
         }
-
-        // Récupérer les offres du recruteur connecté
-        public async Task<IActionResult> MesOffres()
-        {
-            var user = await _userManager.GetUserAsync(User);
-            if (user == null)
-                return RedirectToAction("Login", "Account");
-
-            var recruteurId = user.Id; // ID du recruteur connecté
-            var offres = await _offreService.GetOffresByRecruteurId(recruteurId);
-
-            return View(offres);
-        }
-
-        // Modifier une offre
-        //public async Task<IActionResult> EditOffre(int id)
-        //{
-        //    var user = await _userManager.GetUserAsync(User);
-        //    if (user == null)
-        //        return RedirectToAction("Login", "Account");
-
-        //    var recruteurId = user.Id;
-        //    var offre = await _offreService.GetOffreById(id);
-
-        //    if (offre == null || offre.Recruteur != recruteurId)
-        //    {
-        //        return Unauthorized(); // Accès refusé
-        //    }
-
-        //    return View(offre);
-        //}
-
-        //[HttpPost]
-        //[ValidateAntiForgeryToken]
-        //public async Task<IActionResult> EditOffre(Offre model)
-        //{
-        //    var user = await _userManager.GetUserAsync(User);
-        //    if (user == null)
-        //        return RedirectToAction("Login", "Account");
-
-        //    var recruteurId = user.Id;
-
-        //    // Vérification de la propriété
-        //    if (model.IdRecruteur != recruteurId)
-        //    {
-        //        return Unauthorized();
-        //    }
-
-        //    if (ModelState.IsValid)
-        //    {
-        //        _context.Offres.Update(model);
-        //        await _context.SaveChangesAsync();
-        //        return RedirectToAction("MesOffres");
-        //    }
-
-        //    return View(model);
-        //}
     }
 }

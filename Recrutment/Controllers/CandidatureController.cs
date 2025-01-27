@@ -16,6 +16,25 @@ namespace Recrutment.Controllers
         {
             _context = context;
         }
+        public IActionResult GetCandidaturesByRecruteur()
+        {
+            var recruteurId = User.FindFirstValue(ClaimTypes.NameIdentifier);
+
+            // Récupérer les offres créées par ce recruteur
+            var offresDuRecruteur = _context.Offres
+                .Where(o => o.ApplicationUserId == recruteurId) // Filtrer par l'ID du recruteur
+                .ToList();
+
+            // Récupérer les candidatures pour ces offres
+            var candidatures = _context.Candidatures
+            .Include(c => c.Candidat)  // Inclure les données du candidat
+            .Include(c => c.Offre)  // Inclure les données de l'offre
+            .Where(c => c.Offre.ApplicationUserId == recruteurId)  // Filtrer par l'ID du recruteur
+            .ToList();
+
+            // Retourner la liste des candidatures à la vue
+            return View(candidatures);
+        }
 
         // GET: Candidature
         public IActionResult Index()

@@ -105,6 +105,9 @@ namespace Recrutment.Areas.Identity.Pages.Account
             [Compare("Password", ErrorMessage = "The password and confirmation password do not match.")]
             public string ConfirmPassword { get; set; }
             public string? Role { get; set; }
+            [Required]
+            public string Nom { get; set; }  // Nouveau champ
+            public string Tel { get; set; }
             [ValidateNever]
             public IEnumerable<SelectListItem> RoleList { get; set; }
         }
@@ -136,17 +139,25 @@ namespace Recrutment.Areas.Identity.Pages.Account
         {
             returnUrl ??= Url.Content("~/");
             ExternalLogins = (await _signInManager.GetExternalAuthenticationSchemesAsync()).ToList();
+
             if (ModelState.IsValid)
             {
                 var user = CreateUser();
 
+                // Affecter le nom et le téléphone à l'utilisateur
+                user.Nom = Input.Nom;  // Ajouter le nom
+                user.Tel = Input.Tel;  // Ajouter le téléphone
+
                 await _userStore.SetUserNameAsync(user, Input.Email, CancellationToken.None);
                 await _emailStore.SetEmailAsync(user, Input.Email, CancellationToken.None);
+
                 var result = await _userManager.CreateAsync(user, Input.Password);
 
                 if (result.Succeeded)
                 {
                     _logger.LogInformation("User created a new account with password.");
+
+                    // Assigner un rôle à l'utilisateur
                     if (!string.IsNullOrEmpty(Input.Role))
                     {
                         await _userManager.AddToRoleAsync(user, Input.Role);
@@ -155,6 +166,8 @@ namespace Recrutment.Areas.Identity.Pages.Account
                     {
                         await _userManager.AddToRoleAsync(user, SD.Role_candidat);
                     }
+
+                    // Générer le lien de confirmation de l'email
                     var userId = await _userManager.GetUserIdAsync(user);
                     var code = await _userManager.GenerateEmailConfirmationTokenAsync(user);
                     code = WebEncoders.Base64UrlEncode(Encoding.UTF8.GetBytes(code));
@@ -164,6 +177,7 @@ namespace Recrutment.Areas.Identity.Pages.Account
                         values: new { area = "Identity", userId = userId, code = code, returnUrl = returnUrl },
                         protocol: Request.Scheme);
 
+                    // Envoyer un email de confirmation
                     await _emailSender.SendEmailAsync(Input.Email, "Confirm your email",
                         $"Please confirm your account by <a href='{HtmlEncoder.Default.Encode(callbackUrl)}'>clicking here</a>.");
 
@@ -177,15 +191,18 @@ namespace Recrutment.Areas.Identity.Pages.Account
                         return LocalRedirect(returnUrl);
                     }
                 }
+
+                // Ajouter des erreurs en cas de problème
                 foreach (var error in result.Errors)
                 {
                     ModelState.AddModelError(string.Empty, error.Description);
                 }
             }
 
-            // If we got this far, something failed, redisplay form
+            // Si le formulaire échoue, redisplay
             return Page();
         }
+
 
         private ApplicationUser CreateUser()
         {

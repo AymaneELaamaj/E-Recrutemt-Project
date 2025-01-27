@@ -39,7 +39,10 @@ app.UseAuthentication();
 app.UseAuthorization();
 app.MapRazorPages();
 
-    
+//app.MapGet("/", async context =>
+//{
+//    context.Response.Redirect("/Identity/Account/Register");
+//});
 app.MapControllerRoute(
     name: "default",
     pattern: "{controller=Offre}/{action=Index}/{id?}");

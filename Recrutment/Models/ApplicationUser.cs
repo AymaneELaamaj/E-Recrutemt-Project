@@ -6,8 +6,9 @@ namespace Recrutment.Models
     {
         [Required]  
         public string Nom { get; set; }
-        public string Adresse { get; set; }
-        public string CodePostal { get; set; }
+        public string Tel { get; set; }
+
+        public ICollection<Offre> Offres { get; set; }
 
     }
 }

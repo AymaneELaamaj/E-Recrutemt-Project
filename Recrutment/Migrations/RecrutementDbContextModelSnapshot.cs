@@ -348,8 +348,9 @@ namespace Recrutment.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
-                    b.Property<int>("IdRecruteur")
-                        .HasColumnType("int");
+                    b.Property<string>("ApplicationUserId")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(450)");
 
                     b.Property<string>("Poste")
                         .IsRequired()
@@ -358,6 +359,9 @@ namespace Recrutment.Migrations
                     b.Property<string>("Profil")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
+
+                    b.Property<int?>("RecruteurId")
+                        .HasColumnType("int");
 
                     b.Property<int>("Remuneration")
                         .HasColumnType("int");
@@ -372,7 +376,9 @@ namespace Recrutment.Migrations
 
                     b.HasKey("Id");
 
-                    b.HasIndex("IdRecruteur");
+                    b.HasIndex("ApplicationUserId");
+
+                    b.HasIndex("RecruteurId");
 
                     b.ToTable("Offres");
 
@@ -380,7 +386,7 @@ namespace Recrutment.Migrations
                         new
                         {
                             Id = 1,
-                            IdRecruteur = 1,
+                            ApplicationUserId = "userId1",
                             Poste = "Développeur Backend",
                             Profil = "Développeur Full Stack",
                             Remuneration = 45000,
@@ -390,7 +396,7 @@ namespace Recrutment.Migrations
                         new
                         {
                             Id = 2,
-                            IdRecruteur = 1,
+                            ApplicationUserId = "userId1",
                             Poste = "Community Manager",
                             Profil = "Chargé de communication",
                             Remuneration = 30000,
@@ -451,15 +457,11 @@ namespace Recrutment.Migrations
                 {
                     b.HasBaseType("Microsoft.AspNetCore.Identity.IdentityUser");
 
-                    b.Property<string>("Adresse")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("CodePostal")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
                     b.Property<string>("Nom")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Tel")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
@@ -470,29 +472,31 @@ namespace Recrutment.Migrations
                         {
                             Id = "userId1",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "7f8a4899-410e-4ada-bc0a-287b96d462c2",
+                            ConcurrencyStamp = "6ee0fc58-8c14-4ee3-8d5e-54e55945cb42",
+                            Email = "jean.dupont@email.com",
                             EmailConfirmed = false,
                             LockoutEnabled = false,
                             PhoneNumberConfirmed = false,
-                            SecurityStamp = "46cd657c-5b63-4277-89ab-bc09ff0cc8b1",
+                            SecurityStamp = "8ca4fb1b-2851-4d2a-8367-fa918b91c57f",
                             TwoFactorEnabled = false,
-                            Adresse = "Rue de Paris",
-                            CodePostal = "75000",
-                            Nom = "jean.dupont@email.com"
+                            UserName = "jean.dupont@email.com",
+                            Nom = "Jean Dupont",
+                            Tel = "0123456789"
                         },
                         new
                         {
                             Id = "userId2",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "bbb8f75f-44f1-44cb-82d5-35c802562781",
+                            ConcurrencyStamp = "d9b230e7-4cbd-4345-a956-ed6c5b9bae28",
+                            Email = "aymane.elaamaj@email.com",
                             EmailConfirmed = false,
                             LockoutEnabled = false,
                             PhoneNumberConfirmed = false,
-                            SecurityStamp = "8a392cfa-da39-4dfc-ac72-1e1c6f603290",
+                            SecurityStamp = "75a2eddb-06a1-4773-8fcf-ee2fea9ca196",
                             TwoFactorEnabled = false,
-                            Adresse = "Rue de Rabat",
-                            CodePostal = "10000",
-                            Nom = "aymane.elaamaj@email.com"
+                            UserName = "aymane.elaamaj@email.com",
+                            Nom = "Aymane Elaamaj",
+                            Tel = "0624579"
                         });
                 });
 
@@ -568,11 +572,15 @@ namespace Recrutment.Migrations
 
             modelBuilder.Entity("Recrutment.Models.Offre", b =>
                 {
-                    b.HasOne("Recrutment.Models.Recruteur", "Recruteur")
+                    b.HasOne("Recrutment.Models.ApplicationUser", "Recruteur")
                         .WithMany("Offres")
-                        .HasForeignKey("IdRecruteur")
+                        .HasForeignKey("ApplicationUserId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
+
+                    b.HasOne("Recrutment.Models.Recruteur", null)
+                        .WithMany("Offres")
+                        .HasForeignKey("RecruteurId");
 
                     b.Navigation("Recruteur");
                 });
@@ -588,6 +596,11 @@ namespace Recrutment.Migrations
                 });
 
             modelBuilder.Entity("Recrutment.Models.Recruteur", b =>
+                {
+                    b.Navigation("Offres");
+                });
+
+            modelBuilder.Entity("Recrutment.Models.ApplicationUser", b =>
                 {
                     b.Navigation("Offres");
                 });
