@@ -1,10 +1,9 @@
-﻿@model IEnumerable<dynamic>  <!-- Le modèle ici est une liste d'objets dynamiques contenant l'Id, UserName, et Email -->
-
-<h2>Liste des Recruteurs</h2>
+﻿@model IEnumerable<dynamic> 
+<h2>Liste des Utilisateurs</h2>
 
 @if (!Model.Any())
 {
-    <p>Aucun recruteur trouvé.</p>
+    <p>Aucun utilisateur trouvé.</p>
 }
 else
 {
@@ -13,16 +12,20 @@ else
             <tr>
                 <th>Nom</th>
                 <th>Email</th>
-                <th>Rôle</th>
+                <th>Rôle</th> <!-- Optionnel, si vous voulez l'ajouter -->
             </tr>
         </thead>
         <tbody>
-            @foreach (var recruteur in Model)
+            @foreach (var user in Model)
             {
                 <tr>
-                    <td>@recruteur.UserName</td>
-                    <td>@recruteur.Email</td>
-                    <td>Recruteur</td> <!-- Puisque nous savons que tous les utilisateurs ici sont des recruteurs -->
+                    <td>@user.UserName</td>
+                    <td>@user.Email</td>
+                    <td> <!-- Rôle peut être récupéré si nécessaire -->
+                        @* Vous pouvez ajouter ici le rôle si vous le souhaitez, par exemple : *@
+                        @* var roles = await _userManager.GetRolesAsync(user); *@
+                        Recruteur <!-- Vous pouvez afficher dynamiquement le rôle ici si nécessaire. -->
+                    </td>
                 </tr>
             }
         </tbody>

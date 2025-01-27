@@ -18,7 +18,6 @@ namespace Recrutment.Controllers
             _context = context;
         }
         [Authorize(Roles = "Recruteur")]
-        [Authorize(Roles = "Recruteur")]
         public IActionResult MesOffres()
         {
             var recruteurId = User.FindFirstValue(ClaimTypes.NameIdentifier); // L'ID du recruteur connecté

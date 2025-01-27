@@ -12,36 +12,33 @@ namespace Recrutment.Controllers
     public class RecruteurController : Controller
     {
         private readonly RecrutementDbContext _context;
-        private readonly UserManager<ApplicationUser> _userManager; // Utilisateur géré par Identity
-        private readonly RoleManager<IdentityRole> _roleManager; // Gestion des rôles
+        
 
         public RecruteurController(RecrutementDbContext context)
         {
             _context = context;
-            _userManager = userManager;
-            _roleManager = roleManager;
+          
         }
 
         // Affiche la liste des recruteurs
         public async Task<IActionResult> Index()
         {
-            // Récupérer le rôle 'Recruteur'
-            var role = await _roleManager.FindByNameAsync("Recruteur");
+            // Récupérer tous les utilisateurs
+            var allUsers = await _context.Users.ToListAsync();
 
-            if (role == null)
+            // Vérifier si des utilisateurs existent
+            if (allUsers == null || !allUsers.Any())
             {
-                return View("Error", "Le rôle 'Recruteur' n'existe pas.");
+                return View("Error", new string[] { "Aucun utilisateur trouvé." });
             }
 
-            // Récupérer tous les utilisateurs ayant ce rôle
-            var usersInRole = await _userManager.GetUsersInRoleAsync(role.Name);
+            // Sélectionner uniquement l'Id, UserName et Email
+            var users = allUsers.Select(u => new { u.Id, u.UserName, u.Email }).ToList();
 
-            // Sélectionner uniquement l'Id et le UserName
-            var recruteurs = usersInRole.Select(u => new { u.Id, u.UserName, u.Email }).ToList();
-
-            // Passer les recruteurs à la vue
-            return View(recruteurs);
+            // Passer les utilisateurs à la vue
+            return View(users);
         }
+
 
 
         // Affiche le formulaire pour créer un nouveau recruteur
