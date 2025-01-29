@@ -1057,6 +1057,10 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "D:\\Dot NET\\Recrutment\\Recrutment\\wwwroot\\images\\Recruitment.jpg",
+      "PackagePath": "staticwebassets\\images\\Recruitment.jpg"
+    },
+    {
       "Id": "D:\\Dot NET\\Recrutment\\Recrutment\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },
@@ -1287,6 +1291,10 @@
     {
       "Id": "D:\\Dot NET\\Recrutment\\Recrutment\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "D:\\Dot NET\\Recrutment\\Recrutment\\wwwroot\\uploads\\cvs\\759bc8e4-f3fd-45cb-bc3e-14bd6b2c890d_CV Français Professionnel Marron Simple.pdf",
+      "PackagePath": "staticwebassets\\uploads\\cvs\\759bc8e4-f3fd-45cb-bc3e-14bd6b2c890d_CV Français Professionnel Marron Simple.pdf"
     },
     {
       "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.Recrutment.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",

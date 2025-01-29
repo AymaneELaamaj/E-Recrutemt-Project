@@ -1,66 +1,57 @@
 ﻿@model Recrutment.Models.Candidats
 
 @{
-    ViewData["Title"] = "Créer un nouveau candidat";
+    ViewData["Title"] = "Postuler à une offre";
 }
 
 <h2>@ViewData["Title"]</h2>
 
-<form asp-action="Create" method="post" class="form-horizontal">
-    <div class="form-group">
-        <label for="Nom">Nom</label>
-        <input asp-for="Nom" class="form-control" />
-        <span asp-validation-for="Nom" class="text-danger"></span>
-    </div>
-
-    <div class="form-group">
-        <label for="Prenom">Prénom</label>
-        <input asp-for="Prenom" class="form-control" />
-        <span asp-validation-for="Prenom" class="text-danger"></span>
-    </div>
-
-    <div class="form-group">
-        <label for="Age">Âge</label>
-        <input asp-for="Age" class="form-control" />
-        <span asp-validation-for="Age" class="text-danger"></span>
-    </div>
-
-    <div class="form-group">
-        <label for="Titre">Titre</label>
-        <input asp-for="Titre" class="form-control" />
-        <span asp-validation-for="Titre" class="text-danger"></span>
-    </div>
-
-    <div class="form-group">
-        <label for="Diplome">Diplôme</label>
-        <input asp-for="Diplome" class="form-control" />
-        <span asp-validation-for="Diplome" class="text-danger"></span>
-    </div>
-
-    <div class="form-group">
-        <label for="AnneeExperience">Années d'expérience</label>
-        <input asp-for="AnneeExperience" class="form-control" />
-        <span asp-validation-for="AnneeExperience" class="text-danger"></span>
-    </div>
-
-    <div class="form-group">
-        <label for="CV">CV (URL ou chemin du fichier)</label>
-        <input asp-for="CV" class="form-control" />
-        <span asp-validation-for="CV" class="text-danger"></span>
-    </div>
-
-    <div class="form-group">
-        <label for="Email">Email</label>
-        <input asp-for="Email" class="form-control" />
-        <span asp-validation-for="Email" class="text-danger"></span>
-    </div>
-
-    <!-- Champ caché pour l'ID de l'offre -->
+<form asp-action="Create" method="post" enctype="multipart/form-data">
     <input type="hidden" name="offreId" value="@ViewBag.OffreId" />
 
-    <button type="submit" class="btn btn-primary">Créer</button>
-</form>
+    <div class="form-group">
+        <label>Nom</label>
+        <input asp-for="Nom" class="form-control" required />
+    </div>
 
+    <div class="form-group">
+        <label>Prénom</label>
+        <input asp-for="Prenom" class="form-control" required />
+    </div>
+
+    <div class="form-group">
+        <label>Email</label>
+        <input asp-for="Email" type="email" class="form-control" required />
+    </div>
+
+    <div class="form-group">
+        <label>Âge</label>
+        <input asp-for="Age" class="form-control" />
+    </div>
+
+    <div class="form-group">
+        <label>Titre</label>
+        <input asp-for="Titre" class="form-control" />
+    </div>
+
+    <div class="form-group">
+        <label>Diplôme</label>
+        <input asp-for="Diplome" class="form-control" />
+    </div>
+
+    <div class="form-group">
+        <label>Années d'expérience</label>
+        <input asp-for="AnneeExperience" class="form-control" />
+    </div>
+
+    <div class="form-group">
+        <label>CV (PDF seulement)</label>
+        <input type="file" name="CVFile" class="form-control" accept=".pdf" />
+    </div>
+
+    <button type="submit" class="btn btn-primary">Créer</button>
+    <a href="@Url.Action("Index", "Offre")" class="btn btn-secondary">Annuler</a>
+</form>
 
 
 @section Scripts {

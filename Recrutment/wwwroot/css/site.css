@@ -65,3 +65,122 @@ h2 {
         background-color: #258cfb;
         color: white;
     }
+/* Header Styles */
+.header-section {
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+    z-index: 1000;
+}
+
+.search-wrapper {
+    position: relative;
+}
+
+    .search-wrapper i {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+
+/* Button Styles */
+.btn-white {
+    background: white;
+    border: 1px solid #e1e8ed;
+}
+
+    .btn-white:hover,
+    .btn-white.active {
+        background: #f8f9fa;
+        border-color: #007bff;
+        color: #007bff;
+    }
+
+.bookmark-btn {
+    width: 32px;
+    height: 32px;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+    .bookmark-btn:hover {
+        color: #007bff;
+        background: #e7f1ff;
+    }
+
+/* Card Styles */
+.job-card {
+    transition: all 0.3s ease;
+    animation-duration: 0.5s;
+}
+
+    .job-card:hover {
+        transform: translateY(-2px);
+    }
+
+.company-logo {
+    width: 48px;
+    height: 48px;
+    background: linear-gradient(45deg, #007bff, #00bfff);
+}
+
+/* Hover Effects */
+.hover-primary:hover {
+    background: #007bff !important;
+    color: white !important;
+}
+
+/* Filter Scroll */
+.filters-scroll {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+    .filters-scroll::-webkit-scrollbar {
+        display: none;
+    }
+
+/* Sidebar */
+.sticky-top {
+    top: 100px;
+}
+
+/* Animations */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.animate__fadeIn {
+    animation: fadeIn 0.5s ease forwards;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 992px) {
+    .sticky-top {
+        position: relative;
+        top: 0;
+    }
+
+    .header-section {
+        position: relative !important;
+    }
+}
+
+@media (max-width: 768px) {
+    .btn-white {
+        padding: 0.5rem 1rem;
+        font-size: 0.875rem;
+    }
+
+    .card-body {
+        padding: 1rem !important;
+    }
+}

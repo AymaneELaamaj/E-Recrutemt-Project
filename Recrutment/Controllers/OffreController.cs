@@ -17,7 +17,7 @@ namespace Recrutment.Controllers
         {
             _context = context;
         }
-        [Authorize(Roles = "Recruteur")]
+        [Authorize(Roles = "Admin,Recruteur")]
         public IActionResult MesOffres()
         {
             var recruteurId = User.FindFirstValue(ClaimTypes.NameIdentifier); // L'ID du recruteur connecté
@@ -45,7 +45,8 @@ namespace Recrutment.Controllers
 
 
         // Afficher les candidatures pour une offre spécifique
-        [Authorize(Roles = "Recruteur")]
+        [Authorize(Roles = "Admin,Recruteur")]
+
         public IActionResult Candidatures()
         {
             // Récupérer l'ID du recruteur
@@ -96,6 +97,8 @@ namespace Recrutment.Controllers
         }
 
         // Affiche le formulaire pour créer une nouvelle offre
+        [Authorize(Roles = "Admin,Recruteur")]
+
         public IActionResult Create()
         {
             var recruteurs = _context.Users // Utilise le DbSet correspondant aux utilisateurs, ici _context.Users
@@ -116,7 +119,7 @@ namespace Recrutment.Controllers
 
 
 
-        //[Authorize(Roles ="Admin,Recruteur")]
+        [Authorize(Roles ="Admin,Recruteur")]
         // Enregistre une nouvelle offre
         [HttpPost]
         [ValidateAntiForgeryToken]
@@ -133,6 +136,8 @@ namespace Recrutment.Controllers
         }
 
         // Affiche le formulaire de modification
+        [Authorize(Roles = "Admin,Recruteur")]
+
         public IActionResult Edit(int id)
         {
             var offre = _context.Offres
@@ -153,6 +158,8 @@ namespace Recrutment.Controllers
         // Enregistre les modifications
         [HttpPost]
         [ValidateAntiForgeryToken]
+        [Authorize(Roles = "Admin,Recruteur")]
+
         public IActionResult Edit(Offre model)
         {
 
@@ -166,6 +173,8 @@ namespace Recrutment.Controllers
         }
 
         // Affiche la confirmation de suppression
+        [Authorize(Roles = "Admin,Recruteur")]
+
         public IActionResult Delete(int id)
         {
             var offre = _context.Offres.Find(id);
@@ -176,6 +185,7 @@ namespace Recrutment.Controllers
 
             return View(offre);
         }
+        [Authorize(Roles = "Admin,Recruteur")]
 
         // Supprime une offre
         [HttpPost, ActionName("Delete")]
@@ -191,6 +201,7 @@ namespace Recrutment.Controllers
 
             return RedirectToAction("Index");
         }
+        [Authorize(Roles = "Admin,Recruteur")]
 
         public async Task<IActionResult> Statistiques(string recruteurId)
         {

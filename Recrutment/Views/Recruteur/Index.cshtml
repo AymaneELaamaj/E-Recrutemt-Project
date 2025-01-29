@@ -1,33 +1,27 @@
-﻿@model IEnumerable<dynamic> 
-<h2>Liste des Utilisateurs</h2>
+﻿@model IEnumerable<dynamic>
 
-@if (!Model.Any())
-{
-    <p>Aucun utilisateur trouvé.</p>
+@{
+    ViewData["Title"] = "Liste des recruteurs";
 }
-else
-{
-    <table class="table">
-        <thead>
+
+<h2>@ViewData["Title"]</h2>
+
+<table class="table table-bordered table-striped">
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Nom d'utilisateur</th>
+            <th>Email</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var user in Model)
+        {
             <tr>
-                <th>Nom</th>
-                <th>Email</th>
-                <th>Rôle</th> <!-- Optionnel, si vous voulez l'ajouter -->
+                <td>@user.Id</td>
+                <td>@user.UserName</td>
+                <td>@user.Email</td>
             </tr>
-        </thead>
-        <tbody>
-            @foreach (var user in Model)
-            {
-                <tr>
-                    <td>@user.UserName</td>
-                    <td>@user.Email</td>
-                    <td> <!-- Rôle peut être récupéré si nécessaire -->
-                        @* Vous pouvez ajouter ici le rôle si vous le souhaitez, par exemple : *@
-                        @* var roles = await _userManager.GetRolesAsync(user); *@
-                        Recruteur <!-- Vous pouvez afficher dynamiquement le rôle ici si nécessaire. -->
-                    </td>
-                </tr>
-            }
-        </tbody>
-    </table>
-}
+        }
+    </tbody>
+</table>

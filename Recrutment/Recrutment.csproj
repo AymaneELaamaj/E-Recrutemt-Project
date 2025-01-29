@@ -24,11 +24,13 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Folder Include="wwwroot\images\" />
     <Folder Include="wwwroot\Template\public\plugins\" />
     <Folder Include="wwwroot\Template\public\vendors\%40popper\" />
     <Folder Include="wwwroot\Template\public\vendors\popper\" />
     <Folder Include="wwwroot\Template\src\pug\mixins\layouts\" />
     <Folder Include="wwwroot\Template\src\pug\pages\" />
+    <Folder Include="wwwroot\uploads\cvs\" />
   </ItemGroup>
 	
 

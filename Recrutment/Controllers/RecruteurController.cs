@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Identity;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
@@ -19,27 +20,44 @@ namespace Recrutment.Controllers
             _context = context;
           
         }
+        [Authorize(Roles = "Admin")]
 
-        // Affiche la liste des recruteurs
         public async Task<IActionResult> Index()
         {
-            // Récupérer tous les utilisateurs
-            var allUsers = await _context.Users.ToListAsync();
+            // 1. Récupérer l'ID du rôle "Recruteur" depuis la table AspNetRoles
+            var roleId = await _context.Roles
+                                       .Where(r => r.Name == "Recruteur")
+                                       .Select(r => r.Id)
+                                       .FirstOrDefaultAsync();
 
-            // Vérifier si des utilisateurs existent
-            if (allUsers == null || !allUsers.Any())
+            if (roleId == null)
             {
-                return View("Error", new string[] { "Aucun utilisateur trouvé." });
+                return View("Error", new string[] { "Le rôle Recruteur n'existe pas." });
             }
 
-            // Sélectionner uniquement l'Id, UserName et Email
-            var users = allUsers.Select(u => new { u.Id, u.UserName, u.Email }).ToList();
+            // 2. Récupérer les IDs des utilisateurs ayant ce rôle dans AspNetUserRoles
+            var userIds = await _context.UserRoles
+                                        .Where(ur => ur.RoleId == roleId)
+                                        .Select(ur => ur.UserId)
+                                        .ToListAsync();
 
-            // Passer les utilisateurs à la vue
+            // 3. Récupérer uniquement les utilisateurs ayant cet ID depuis AspNetUsers
+            var users = await _context.Users
+                                      .Where(u => userIds.Contains(u.Id))
+                                      .Select(u => new { u.Id, u.UserName, u.Email })
+                                      .ToListAsync();
+
+            // Vérifier s'il y a des utilisateurs avec ce rôle
+            if (!users.Any())
+            {
+                return View("Error", new string[] { "Aucun utilisateur avec le rôle Recruteur trouvé." });
+            }
+
+            // 4. Passer les utilisateurs à la vue
             return View(users);
         }
 
-
+        [Authorize(Roles = "Admin")]
 
         // Affiche le formulaire pour créer un nouveau recruteur
         public IActionResult Create()
@@ -60,6 +78,7 @@ namespace Recrutment.Controllers
         }
 
         // Affiche le formulaire pour modifier un recruteur
+        [Authorize(Roles = "Admin")]
         public async Task<IActionResult> Edit(int id)
         {
             var recruteur = await _context.Recruteurs.FindAsync(id);
@@ -71,6 +90,7 @@ namespace Recrutment.Controllers
         }
 
         // Enregistre les modifications d’un recruteur
+        [Authorize(Roles = "Admin")]
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Edit(Recruteur model)
@@ -85,6 +105,7 @@ namespace Recrutment.Controllers
         // Supprime un recruteur
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
+        [Authorize(Roles = "Admin")]
         public async Task<IActionResult> DeleteConfirmed(int id)
         {
             var recruteur = await _context.Recruteurs.FindAsync(id);

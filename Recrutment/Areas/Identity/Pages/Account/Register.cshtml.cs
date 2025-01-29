@@ -110,6 +110,14 @@ namespace Recrutment.Areas.Identity.Pages.Account
             public string Tel { get; set; }
             [ValidateNever]
             public IEnumerable<SelectListItem> RoleList { get; set; }
+            public void PopulateRoleList()
+            {
+                RoleList = new List<SelectListItem>
+                {  
+                     new SelectListItem { Value = SD.Role_Recruteur, Text = "Recruteur" },
+                     new SelectListItem { Value = SD.Role_candidat, Text = "Candidat" }
+                 };
+            }
         }
 
 

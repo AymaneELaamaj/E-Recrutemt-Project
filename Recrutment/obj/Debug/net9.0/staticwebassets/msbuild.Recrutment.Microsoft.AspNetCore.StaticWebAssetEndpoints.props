@@ -1,16 +1,16 @@
 ﻿<Project>
   <ItemGroup>
-    <StaticWebAssetEndpoint Include="_content/Recrutment/css/site.bb33xqwr5h.css">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\site.css'))</AssetFile>
-      <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"bb33xqwr5h"},{"Name":"integrity","Value":"sha256-eaNv8GG1oK6ZJ/mTFqAHQBe2fOxSAYDIIHxL8Bg62vo="},{"Name":"label","Value":"_content/Recrutment/css/site.css"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1213"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022eaNv8GG1oK6ZJ/mTFqAHQBe2fOxSAYDIIHxL8Bg62vo=\u0022"},{"Name":"Last-Modified","Value":"Sun, 26 Jan 2025 17:31:44 GMT"}]]]></ResponseHeaders>
-    </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/Recrutment/css/site.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\site.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-eaNv8GG1oK6ZJ/mTFqAHQBe2fOxSAYDIIHxL8Bg62vo="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"1213"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022eaNv8GG1oK6ZJ/mTFqAHQBe2fOxSAYDIIHxL8Bg62vo=\u0022"},{"Name":"Last-Modified","Value":"Sun, 26 Jan 2025 17:31:44 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-Po6LRoBMuL4TX43Q1vRkrfRlz01ZkD5upGvxt1ecEjM="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"3261"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022Po6LRoBMuL4TX43Q1vRkrfRlz01ZkD5upGvxt1ecEjM=\u0022"},{"Name":"Last-Modified","Value":"Wed, 29 Jan 2025 17:43:28 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Recrutment/css/site.ek601je3u7.css">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\site.css'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"ek601je3u7"},{"Name":"integrity","Value":"sha256-Po6LRoBMuL4TX43Q1vRkrfRlz01ZkD5upGvxt1ecEjM="},{"Name":"label","Value":"_content/Recrutment/css/site.css"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"3261"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022Po6LRoBMuL4TX43Q1vRkrfRlz01ZkD5upGvxt1ecEjM=\u0022"},{"Name":"Last-Modified","Value":"Wed, 29 Jan 2025 17:43:28 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/Recrutment/favicon.61n19gt1b8.ico">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\favicon.ico'))</AssetFile>
@@ -23,6 +23,18 @@
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-Jtxf9L\u002B5ITKRc1gIRl4VbUpGkRNfOBXjYTdhJD4facM="}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"5430"},{"Name":"Content-Type","Value":"image/x-icon"},{"Name":"ETag","Value":"\u0022Jtxf9L\u002B5ITKRc1gIRl4VbUpGkRNfOBXjYTdhJD4facM=\u0022"},{"Name":"Last-Modified","Value":"Sat, 04 Jan 2025 23:02:40 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Recrutment/images/Recruitment.cglcwkf8ow.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\Recruitment.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"cglcwkf8ow"},{"Name":"integrity","Value":"sha256-ZChS066Jc37hIlfOcafJOzDNA9Wve\u002BYzYPOsPpd5AZo="},{"Name":"label","Value":"_content/Recrutment/images/Recruitment.jpg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"84664"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022ZChS066Jc37hIlfOcafJOzDNA9Wve\u002BYzYPOsPpd5AZo=\u0022"},{"Name":"Last-Modified","Value":"Wed, 29 Jan 2025 16:56:21 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Recrutment/images/Recruitment.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\Recruitment.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-ZChS066Jc37hIlfOcafJOzDNA9Wve\u002BYzYPOsPpd5AZo="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"84664"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022ZChS066Jc37hIlfOcafJOzDNA9Wve\u002BYzYPOsPpd5AZo=\u0022"},{"Name":"Last-Modified","Value":"Wed, 29 Jan 2025 16:56:21 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/Recrutment/js/site.js">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\site.js'))</AssetFile>
@@ -3863,6 +3875,18 @@
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-0UFAiqZJ6Md/Z3nAC\u002BoDGBdPD\u002BEJrD4\u002BrZyohVTGick="}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"149"},{"Name":"Content-Type","Value":"application/octet-stream"},{"Name":"ETag","Value":"\u00220UFAiqZJ6Md/Z3nAC\u002BoDGBdPD\u002BEJrD4\u002BrZyohVTGick=\u0022"},{"Name":"Last-Modified","Value":"Sat, 09 Jan 2021 14:38:06 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Recrutment/uploads/cvs/759bc8e4-f3fd-45cb-bc3e-14bd6b2c890d_CV Français Professionnel Marron Simple.4tuojdqlha.pdf">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\cvs\759bc8e4-f3fd-45cb-bc3e-14bd6b2c890d_CV Français Professionnel Marron Simple.pdf'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"4tuojdqlha"},{"Name":"integrity","Value":"sha256-CCeBJdpojhzPNhYqG1oXjO8qPbwt/a5Y2y/BK8EIMsw="},{"Name":"label","Value":"_content/Recrutment/uploads/cvs/759bc8e4-f3fd-45cb-bc3e-14bd6b2c890d_CV Fran\u00E7ais Professionnel Marron Simple.pdf"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"103201"},{"Name":"Content-Type","Value":"application/pdf"},{"Name":"ETag","Value":"\u0022CCeBJdpojhzPNhYqG1oXjO8qPbwt/a5Y2y/BK8EIMsw=\u0022"},{"Name":"Last-Modified","Value":"Wed, 29 Jan 2025 15:17:46 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Recrutment/uploads/cvs/759bc8e4-f3fd-45cb-bc3e-14bd6b2c890d_CV Français Professionnel Marron Simple.pdf">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\cvs\759bc8e4-f3fd-45cb-bc3e-14bd6b2c890d_CV Français Professionnel Marron Simple.pdf'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-CCeBJdpojhzPNhYqG1oXjO8qPbwt/a5Y2y/BK8EIMsw="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"103201"},{"Name":"Content-Type","Value":"application/pdf"},{"Name":"ETag","Value":"\u0022CCeBJdpojhzPNhYqG1oXjO8qPbwt/a5Y2y/BK8EIMsw=\u0022"},{"Name":"Last-Modified","Value":"Wed, 29 Jan 2025 15:17:46 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
   </ItemGroup>
 </Project>

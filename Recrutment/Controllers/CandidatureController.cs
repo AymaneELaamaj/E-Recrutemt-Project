@@ -16,6 +16,8 @@ namespace Recrutment.Controllers
         {
             _context = context;
         }
+        [Authorize(Roles = "Admin,Recruteur")]
+
         public IActionResult GetCandidaturesByRecruteur()
         {
             var recruteurId = User.FindFirstValue(ClaimTypes.NameIdentifier);
@@ -35,6 +37,7 @@ namespace Recrutment.Controllers
             // Retourner la liste des candidatures à la vue
             return View(candidatures);
         }
+        [Authorize(Roles = "Admin")]
 
         // GET: Candidature
         public IActionResult Index()
@@ -49,6 +52,8 @@ namespace Recrutment.Controllers
         }
 
         // GET: Candidature/Details/5
+        [Authorize(Roles = "Admin,Recruteur")]
+
         public IActionResult Details(int? id)
         {
             if (id == null)

@@ -1,7 +1,9 @@
 ﻿@page
 @model RegisterModel
+
 @{
     ViewData["Title"] = "Register";
+    Model.Input.PopulateRoleList();
 }
 
 <h1>@ViewData["Title"]</h1>

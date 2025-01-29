@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "3KqrBVaJ6KJJMn06GF93nntBvk6Abm8ydrjg+5WT1+s=",
+  "Hash": "zxC+ogIVvhNroh2wMpC5gewg0mVFrNPX0cFU3v+2oPA=",
   "Source": "Recrutment",
   "BasePath": "_content/Recrutment",
   "Mode": "Default",
@@ -2642,12 +2642,12 @@
       "OriginalItemSpec": "C:\\Users\\hp pc\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\9.0.0\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Identity": "D:\\Dot NET\\Recrutment\\Recrutment\\obj\\Debug\\net9.0\\compressed\\eio2w93v93-bb33xqwr5h.gz",
+      "Identity": "D:\\Dot NET\\Recrutment\\Recrutment\\obj\\Debug\\net9.0\\compressed\\eio2w93v93-ek601je3u7.gz",
       "SourceId": "Recrutment",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Dot NET\\Recrutment\\Recrutment\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/Recrutment",
-      "RelativePath": "css/site#[.{fingerprint=bb33xqwr5h}]?.css.gz",
+      "RelativePath": "css/site#[.{fingerprint=ek601je3u7}]?.css.gz",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -2656,8 +2656,8 @@
       "RelatedAsset": "D:\\Dot NET\\Recrutment\\Recrutment\\wwwroot\\css\\site.css",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "8m2cny44w2",
-      "Integrity": "QBfNMDsGXEFAhOwGiUCXCLo5xvexj0v0eZD3HSCy8Zw=",
+      "Fingerprint": "sb4yqi5weo",
+      "Integrity": "aHwTjHD4f0RwQLrvFxMr4d7zmBfr55GQiPBTjTlp4Ks=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "D:\\Dot NET\\Recrutment\\Recrutment\\wwwroot\\css\\site.css"
@@ -4861,8 +4861,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "bb33xqwr5h",
-      "Integrity": "eaNv8GG1oK6ZJ/mTFqAHQBe2fOxSAYDIIHxL8Bg62vo=",
+      "Fingerprint": "ek601je3u7",
+      "Integrity": "Po6LRoBMuL4TX43Q1vRkrfRlz01ZkD5upGvxt1ecEjM=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\site.css"
@@ -4887,6 +4887,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "D:\\Dot NET\\Recrutment\\Recrutment\\wwwroot\\images\\Recruitment.jpg",
+      "SourceId": "Recrutment",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Dot NET\\Recrutment\\Recrutment\\wwwroot\\",
+      "BasePath": "_content/Recrutment",
+      "RelativePath": "images/Recruitment#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "cglcwkf8ow",
+      "Integrity": "ZChS066Jc37hIlfOcafJOzDNA9Wve+YzYPOsPpd5AZo=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\Recruitment.jpg"
     },
     {
       "Identity": "D:\\Dot NET\\Recrutment\\Recrutment\\wwwroot\\js\\site.js",
@@ -11586,170 +11607,30 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Template\\src\\scss\\theme\\helpers\\_text.scss"
+    },
+    {
+      "Identity": "D:\\Dot NET\\Recrutment\\Recrutment\\wwwroot\\uploads\\cvs\\759bc8e4-f3fd-45cb-bc3e-14bd6b2c890d_CV Français Professionnel Marron Simple.pdf",
+      "SourceId": "Recrutment",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Dot NET\\Recrutment\\Recrutment\\wwwroot\\",
+      "BasePath": "_content/Recrutment",
+      "RelativePath": "uploads/cvs/759bc8e4-f3fd-45cb-bc3e-14bd6b2c890d_CV Français Professionnel Marron Simple#[.{fingerprint}]?.pdf",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "4tuojdqlha",
+      "Integrity": "CCeBJdpojhzPNhYqG1oXjO8qPbwt/a5Y2y/BK8EIMsw=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\cvs\\759bc8e4-f3fd-45cb-bc3e-14bd6b2c890d_CV Français Professionnel Marron Simple.pdf"
     }
   ],
   "Endpoints": [
-    {
-      "Route": "css/site.bb33xqwr5h.css",
-      "AssetFile": "D:\\Dot NET\\Recrutment\\Recrutment\\obj\\Debug\\net9.0\\compressed\\eio2w93v93-bb33xqwr5h.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.002341920375"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "426"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"QBfNMDsGXEFAhOwGiUCXCLo5xvexj0v0eZD3HSCy8Zw=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sun, 26 Jan 2025 17:31:44 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "W/\"eaNv8GG1oK6ZJ/mTFqAHQBe2fOxSAYDIIHxL8Bg62vo=\""
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "bb33xqwr5h"
-        },
-        {
-          "Name": "label",
-          "Value": "css/site.css"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-eaNv8GG1oK6ZJ/mTFqAHQBe2fOxSAYDIIHxL8Bg62vo="
-        }
-      ]
-    },
-    {
-      "Route": "css/site.bb33xqwr5h.css",
-      "AssetFile": "D:\\Dot NET\\Recrutment\\Recrutment\\wwwroot\\css\\site.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "1213"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"eaNv8GG1oK6ZJ/mTFqAHQBe2fOxSAYDIIHxL8Bg62vo=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sun, 26 Jan 2025 17:31:44 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "bb33xqwr5h"
-        },
-        {
-          "Name": "label",
-          "Value": "css/site.css"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-eaNv8GG1oK6ZJ/mTFqAHQBe2fOxSAYDIIHxL8Bg62vo="
-        }
-      ]
-    },
-    {
-      "Route": "css/site.bb33xqwr5h.css.gz",
-      "AssetFile": "D:\\Dot NET\\Recrutment\\Recrutment\\obj\\Debug\\net9.0\\compressed\\eio2w93v93-bb33xqwr5h.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "426"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"QBfNMDsGXEFAhOwGiUCXCLo5xvexj0v0eZD3HSCy8Zw=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sun, 26 Jan 2025 17:31:44 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "bb33xqwr5h"
-        },
-        {
-          "Name": "label",
-          "Value": "css/site.css.gz"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-QBfNMDsGXEFAhOwGiUCXCLo5xvexj0v0eZD3HSCy8Zw="
-        }
-      ]
-    },
     {
       "Route": "css/site.css",
       "AssetFile": "C:\\Users\\hp pc\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\9.0.0\\staticwebassets\\css\\site.css",
@@ -11789,12 +11670,12 @@
     },
     {
       "Route": "css/site.css",
-      "AssetFile": "D:\\Dot NET\\Recrutment\\Recrutment\\obj\\Debug\\net9.0\\compressed\\eio2w93v93-bb33xqwr5h.gz",
+      "AssetFile": "D:\\Dot NET\\Recrutment\\Recrutment\\obj\\Debug\\net9.0\\compressed\\eio2w93v93-ek601je3u7.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.002341920375"
+          "Quality": "0.000919963201"
         }
       ],
       "ResponseHeaders": [
@@ -11804,15 +11685,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "426"
+          "Value": "1086"
         },
         {
           "Name": "ETag",
-          "Value": "\"QBfNMDsGXEFAhOwGiUCXCLo5xvexj0v0eZD3HSCy8Zw=\""
+          "Value": "\"aHwTjHD4f0RwQLrvFxMr4d7zmBfr55GQiPBTjTlp4Ks=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 26 Jan 2025 17:31:44 GMT"
+          "Value": "Wed, 29 Jan 2025 17:43:28 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -11832,13 +11713,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"eaNv8GG1oK6ZJ/mTFqAHQBe2fOxSAYDIIHxL8Bg62vo=\""
+          "Value": "W/\"Po6LRoBMuL4TX43Q1vRkrfRlz01ZkD5upGvxt1ecEjM=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-eaNv8GG1oK6ZJ/mTFqAHQBe2fOxSAYDIIHxL8Bg62vo="
+          "Value": "sha256-Po6LRoBMuL4TX43Q1vRkrfRlz01ZkD5upGvxt1ecEjM="
         }
       ]
     },
@@ -11853,7 +11734,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1213"
+          "Value": "3261"
         },
         {
           "Name": "Content-Type",
@@ -11861,11 +11742,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"eaNv8GG1oK6ZJ/mTFqAHQBe2fOxSAYDIIHxL8Bg62vo=\""
+          "Value": "\"Po6LRoBMuL4TX43Q1vRkrfRlz01ZkD5upGvxt1ecEjM=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 26 Jan 2025 17:31:44 GMT"
+          "Value": "Wed, 29 Jan 2025 17:43:28 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -11875,13 +11756,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-eaNv8GG1oK6ZJ/mTFqAHQBe2fOxSAYDIIHxL8Bg62vo="
+          "Value": "sha256-Po6LRoBMuL4TX43Q1vRkrfRlz01ZkD5upGvxt1ecEjM="
         }
       ]
     },
     {
       "Route": "css/site.css.gz",
-      "AssetFile": "D:\\Dot NET\\Recrutment\\Recrutment\\obj\\Debug\\net9.0\\compressed\\eio2w93v93-bb33xqwr5h.gz",
+      "AssetFile": "D:\\Dot NET\\Recrutment\\Recrutment\\obj\\Debug\\net9.0\\compressed\\eio2w93v93-ek601je3u7.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -11890,7 +11771,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "426"
+          "Value": "1086"
         },
         {
           "Name": "Content-Type",
@@ -11898,11 +11779,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"QBfNMDsGXEFAhOwGiUCXCLo5xvexj0v0eZD3HSCy8Zw=\""
+          "Value": "\"aHwTjHD4f0RwQLrvFxMr4d7zmBfr55GQiPBTjTlp4Ks=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 26 Jan 2025 17:31:44 GMT"
+          "Value": "Wed, 29 Jan 2025 17:43:28 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -11920,7 +11801,168 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-QBfNMDsGXEFAhOwGiUCXCLo5xvexj0v0eZD3HSCy8Zw="
+          "Value": "sha256-aHwTjHD4f0RwQLrvFxMr4d7zmBfr55GQiPBTjTlp4Ks="
+        }
+      ]
+    },
+    {
+      "Route": "css/site.ek601je3u7.css",
+      "AssetFile": "D:\\Dot NET\\Recrutment\\Recrutment\\obj\\Debug\\net9.0\\compressed\\eio2w93v93-ek601je3u7.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000919963201"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1086"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"aHwTjHD4f0RwQLrvFxMr4d7zmBfr55GQiPBTjTlp4Ks=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 29 Jan 2025 17:43:28 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"Po6LRoBMuL4TX43Q1vRkrfRlz01ZkD5upGvxt1ecEjM=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ek601je3u7"
+        },
+        {
+          "Name": "label",
+          "Value": "css/site.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Po6LRoBMuL4TX43Q1vRkrfRlz01ZkD5upGvxt1ecEjM="
+        }
+      ]
+    },
+    {
+      "Route": "css/site.ek601je3u7.css",
+      "AssetFile": "D:\\Dot NET\\Recrutment\\Recrutment\\wwwroot\\css\\site.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3261"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Po6LRoBMuL4TX43Q1vRkrfRlz01ZkD5upGvxt1ecEjM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 29 Jan 2025 17:43:28 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ek601je3u7"
+        },
+        {
+          "Name": "label",
+          "Value": "css/site.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Po6LRoBMuL4TX43Q1vRkrfRlz01ZkD5upGvxt1ecEjM="
+        }
+      ]
+    },
+    {
+      "Route": "css/site.ek601je3u7.css.gz",
+      "AssetFile": "D:\\Dot NET\\Recrutment\\Recrutment\\obj\\Debug\\net9.0\\compressed\\eio2w93v93-ek601je3u7.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1086"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"aHwTjHD4f0RwQLrvFxMr4d7zmBfr55GQiPBTjTlp4Ks=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 29 Jan 2025 17:43:28 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ek601je3u7"
+        },
+        {
+          "Name": "label",
+          "Value": "css/site.css.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-aHwTjHD4f0RwQLrvFxMr4d7zmBfr55GQiPBTjTlp4Ks="
         }
       ]
     },
@@ -20787,6 +20829,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-1HkjQSVuV0/ji/X/lGeDTHeagBS0BwopMrHDQuwqgtU="
+        }
+      ]
+    },
+    {
+      "Route": "images/Recruitment.cglcwkf8ow.jpg",
+      "AssetFile": "D:\\Dot NET\\Recrutment\\Recrutment\\wwwroot\\images\\Recruitment.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "84664"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ZChS066Jc37hIlfOcafJOzDNA9Wve+YzYPOsPpd5AZo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 29 Jan 2025 16:56:21 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "cglcwkf8ow"
+        },
+        {
+          "Name": "label",
+          "Value": "images/Recruitment.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-ZChS066Jc37hIlfOcafJOzDNA9Wve+YzYPOsPpd5AZo="
+        }
+      ]
+    },
+    {
+      "Route": "images/Recruitment.jpg",
+      "AssetFile": "D:\\Dot NET\\Recrutment\\Recrutment\\wwwroot\\images\\Recruitment.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "84664"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ZChS066Jc37hIlfOcafJOzDNA9Wve+YzYPOsPpd5AZo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 29 Jan 2025 16:56:21 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-ZChS066Jc37hIlfOcafJOzDNA9Wve+YzYPOsPpd5AZo="
         }
       ]
     },
@@ -71182,6 +71306,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-dgHtJp4N4z5lPJ1MX6Qb3fnV7jL7Xj0o8603sa9+DYE="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/cvs/759bc8e4-f3fd-45cb-bc3e-14bd6b2c890d_CV Français Professionnel Marron Simple.4tuojdqlha.pdf",
+      "AssetFile": "D:\\Dot NET\\Recrutment\\Recrutment\\wwwroot\\uploads\\cvs\\759bc8e4-f3fd-45cb-bc3e-14bd6b2c890d_CV Français Professionnel Marron Simple.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "103201"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"CCeBJdpojhzPNhYqG1oXjO8qPbwt/a5Y2y/BK8EIMsw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 29 Jan 2025 15:17:46 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "4tuojdqlha"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/cvs/759bc8e4-f3fd-45cb-bc3e-14bd6b2c890d_CV Français Professionnel Marron Simple.pdf"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-CCeBJdpojhzPNhYqG1oXjO8qPbwt/a5Y2y/BK8EIMsw="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/cvs/759bc8e4-f3fd-45cb-bc3e-14bd6b2c890d_CV Français Professionnel Marron Simple.pdf",
+      "AssetFile": "D:\\Dot NET\\Recrutment\\Recrutment\\wwwroot\\uploads\\cvs\\759bc8e4-f3fd-45cb-bc3e-14bd6b2c890d_CV Français Professionnel Marron Simple.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "103201"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"CCeBJdpojhzPNhYqG1oXjO8qPbwt/a5Y2y/BK8EIMsw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 29 Jan 2025 15:17:46 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-CCeBJdpojhzPNhYqG1oXjO8qPbwt/a5Y2y/BK8EIMsw="
         }
       ]
     }

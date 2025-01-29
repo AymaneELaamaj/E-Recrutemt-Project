@@ -101,6 +101,7 @@ D:\Dot NET\Recrutment\Recrutment\wwwroot\lib\bootstrap\dist\js\bootstrap.min.js
 D:\Dot NET\Recrutment\Recrutment\wwwroot\lib\jquery-validation\dist\additional-methods.min.js
 wwwroot\css\site.css
 wwwroot\favicon.ico
+wwwroot\images\Recruitment.jpg
 wwwroot\js\site.js
 wwwroot\lib\bootstrap\dist\css\bootstrap.css
 wwwroot\lib\bootstrap\dist\css\bootstrap.css.map
@@ -420,3 +421,4 @@ wwwroot\Template\src\scss\theme\helpers\_flex.scss
 wwwroot\Template\src\scss\theme\helpers\_position.scss
 wwwroot\Template\src\scss\theme\helpers\_shadow.scss
 wwwroot\Template\src\scss\theme\helpers\_text.scss
+wwwroot\uploads\cvs\759bc8e4-f3fd-45cb-bc3e-14bd6b2c890d_CV Français Professionnel Marron Simple.pdf
