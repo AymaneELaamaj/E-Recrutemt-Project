@@ -55,9 +55,12 @@
                                             @user.UserName[0]
                                         </div>
                                     </div>
-                                    <div class="flex-grow-1">
-                                        <h5 class="mb-1">@user.UserName</h5>
-                                        <small class="text-muted">ID: #@user.Id</small>
+                                    <div class="d-flex flex-column" style="min-width: 0;">
+                                        <!-- Container with text overflow prevention -->
+                                        <div class="text-truncate fs-6 fw-semibold mb-1" title="@user.Email">
+                                            @user.Email
+                                        </div>
+                                        <small class="text-muted fs-7 text-truncate">ID: #@user.Id</small>
                                     </div>
                                     <div class="dropdown">
                                         <button class="btn btn-link text-muted" type="button"

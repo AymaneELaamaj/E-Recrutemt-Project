@@ -3,32 +3,56 @@
   "WorkspaceRootPath": "D:\\Dot NET\\Recrutment\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{9CAE9FBD-677A-4B9B-8BE7-639F13D942B9}|Recrutment\\Recrutment.csproj|d:\\dot net\\recrutment\\recrutment\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9CAE9FBD-677A-4B9B-8BE7-639F13D942B9}|Recrutment\\Recrutment.csproj|solutionrelative:recrutment\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CAE9FBD-677A-4B9B-8BE7-639F13D942B9}|Recrutment\\Recrutment.csproj|d:\\dot net\\recrutment\\recrutment\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9CAE9FBD-677A-4B9B-8BE7-639F13D942B9}|Recrutment\\Recrutment.csproj|solutionrelative:recrutment\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CAE9FBD-677A-4B9B-8BE7-639F13D942B9}|Recrutment\\Recrutment.csproj|d:\\dot net\\recrutment\\recrutment\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9CAE9FBD-677A-4B9B-8BE7-639F13D942B9}|Recrutment\\Recrutment.csproj|solutionrelative:recrutment\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{9CAE9FBD-677A-4B9B-8BE7-639F13D942B9}|Recrutment\\Recrutment.csproj|d:\\dot net\\recrutment\\recrutment\\views\\recruteur\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{9CAE9FBD-677A-4B9B-8BE7-639F13D942B9}|Recrutment\\Recrutment.csproj|solutionrelative:recrutment\\views\\recruteur\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9CAE9FBD-677A-4B9B-8BE7-639F13D942B9}|Recrutment\\Recrutment.csproj|d:\\dot net\\recrutment\\recrutment\\views\\candidature\\getcandidaturesbyrecruteur.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{9CAE9FBD-677A-4B9B-8BE7-639F13D942B9}|Recrutment\\Recrutment.csproj|solutionrelative:recrutment\\views\\candidature\\getcandidaturesbyrecruteur.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9CAE9FBD-677A-4B9B-8BE7-639F13D942B9}|Recrutment\\Recrutment.csproj|d:\\dot net\\recrutment\\recrutment\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{9CAE9FBD-677A-4B9B-8BE7-639F13D942B9}|Recrutment\\Recrutment.csproj|solutionrelative:recrutment\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9CAE9FBD-677A-4B9B-8BE7-639F13D942B9}|Recrutment\\Recrutment.csproj|d:\\dot net\\recrutment\\recrutment\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{9CAE9FBD-677A-4B9B-8BE7-639F13D942B9}|Recrutment\\Recrutment.csproj|solutionrelative:recrutment\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9CAE9FBD-677A-4B9B-8BE7-639F13D942B9}|Recrutment\\Recrutment.csproj|d:\\dot net\\recrutment\\recrutment\\views\\offre\\mesoffres.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{9CAE9FBD-677A-4B9B-8BE7-639F13D942B9}|Recrutment\\Recrutment.csproj|solutionrelative:recrutment\\views\\offre\\mesoffres.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9CAE9FBD-677A-4B9B-8BE7-639F13D942B9}|Recrutment\\Recrutment.csproj|d:\\dot net\\recrutment\\recrutment\\areas\\identity\\pages\\account\\register.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9CAE9FBD-677A-4B9B-8BE7-639F13D942B9}|Recrutment\\Recrutment.csproj|solutionrelative:recrutment\\areas\\identity\\pages\\account\\register.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9CAE9FBD-677A-4B9B-8BE7-639F13D942B9}|Recrutment\\Recrutment.csproj|d:\\dot net\\recrutment\\recrutment\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{9CAE9FBD-677A-4B9B-8BE7-639F13D942B9}|Recrutment\\Recrutment.csproj|solutionrelative:recrutment\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CAE9FBD-677A-4B9B-8BE7-639F13D942B9}|Recrutment\\Recrutment.csproj|d:\\dot net\\recrutment\\recrutment\\areas\\identity\\pages\\account\\loginwithrecoverycode.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9CAE9FBD-677A-4B9B-8BE7-639F13D942B9}|Recrutment\\Recrutment.csproj|solutionrelative:recrutment\\areas\\identity\\pages\\account\\loginwithrecoverycode.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9CAE9FBD-677A-4B9B-8BE7-639F13D942B9}|Recrutment\\Recrutment.csproj|d:\\dot net\\recrutment\\recrutment\\areas\\identity\\pages\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{9CAE9FBD-677A-4B9B-8BE7-639F13D942B9}|Recrutment\\Recrutment.csproj|solutionrelative:recrutment\\areas\\identity\\pages\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CAE9FBD-677A-4B9B-8BE7-639F13D942B9}|Recrutment\\Recrutment.csproj|d:\\dot net\\recrutment\\recrutment\\views\\offre\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9CAE9FBD-677A-4B9B-8BE7-639F13D942B9}|Recrutment\\Recrutment.csproj|solutionrelative:recrutment\\views\\offre\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CAE9FBD-677A-4B9B-8BE7-639F13D942B9}|Recrutment\\Recrutment.csproj|d:\\dot net\\recrutment\\recrutment\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9CAE9FBD-677A-4B9B-8BE7-639F13D942B9}|Recrutment\\Recrutment.csproj|solutionrelative:recrutment\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CAE9FBD-677A-4B9B-8BE7-639F13D942B9}|Recrutment\\Recrutment.csproj|d:\\dot net\\recrutment\\recrutment\\views\\candidature\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9CAE9FBD-677A-4B9B-8BE7-639F13D942B9}|Recrutment\\Recrutment.csproj|solutionrelative:recrutment\\views\\candidature\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CAE9FBD-677A-4B9B-8BE7-639F13D942B9}|Recrutment\\Recrutment.csproj|d:\\dot net\\recrutment\\recrutment\\views\\candidature\\getcandidaturesbyrecruteur.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9CAE9FBD-677A-4B9B-8BE7-639F13D942B9}|Recrutment\\Recrutment.csproj|solutionrelative:recrutment\\views\\candidature\\getcandidaturesbyrecruteur.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CAE9FBD-677A-4B9B-8BE7-639F13D942B9}|Recrutment\\Recrutment.csproj|d:\\dot net\\recrutment\\recrutment\\areas\\identity\\pages\\account\\register.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9CAE9FBD-677A-4B9B-8BE7-639F13D942B9}|Recrutment\\Recrutment.csproj|solutionrelative:recrutment\\areas\\identity\\pages\\account\\register.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9CAE9FBD-677A-4B9B-8BE7-639F13D942B9}|Recrutment\\Recrutment.csproj|d:\\dot net\\recrutment\\recrutment\\utility\\sd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -37,14 +61,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{9CAE9FBD-677A-4B9B-8BE7-639F13D942B9}|Recrutment\\Recrutment.csproj|d:\\dot net\\recrutment\\recrutment\\models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9CAE9FBD-677A-4B9B-8BE7-639F13D942B9}|Recrutment\\Recrutment.csproj|solutionrelative:recrutment\\models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9CAE9FBD-677A-4B9B-8BE7-639F13D942B9}|Recrutment\\Recrutment.csproj|d:\\dot net\\recrutment\\recrutment\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{9CAE9FBD-677A-4B9B-8BE7-639F13D942B9}|Recrutment\\Recrutment.csproj|solutionrelative:recrutment\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9CAE9FBD-677A-4B9B-8BE7-639F13D942B9}|Recrutment\\Recrutment.csproj|d:\\dot net\\recrutment\\recrutment\\views\\offre\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{9CAE9FBD-677A-4B9B-8BE7-639F13D942B9}|Recrutment\\Recrutment.csproj|solutionrelative:recrutment\\views\\offre\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9CAE9FBD-677A-4B9B-8BE7-639F13D942B9}|Recrutment\\Recrutment.csproj|d:\\dot net\\recrutment\\recrutment\\views\\recruteur\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -106,56 +122,95 @@
       "DocumentGroups": [
         {
           "DockedHeight": 257,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "D:\\Dot NET\\Recrutment\\Recrutment\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Recrutment\\Controllers\\HomeController.cs",
+              "ToolTip": "D:\\Dot NET\\Recrutment\\Recrutment\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Recrutment\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA8AAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-30T14:45:58.354Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Dot NET\\Recrutment\\Recrutment\\Program.cs",
+              "RelativeDocumentMoniker": "Recrutment\\Program.cs",
+              "ToolTip": "D:\\Dot NET\\Recrutment\\Recrutment\\Program.cs",
+              "RelativeToolTip": "Recrutment\\Program.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAACgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-30T14:44:12.471Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "site.css",
               "DocumentMoniker": "D:\\Dot NET\\Recrutment\\Recrutment\\wwwroot\\css\\site.css",
               "RelativeDocumentMoniker": "Recrutment\\wwwroot\\css\\site.css",
               "ToolTip": "D:\\Dot NET\\Recrutment\\Recrutment\\wwwroot\\css\\site.css",
               "RelativeToolTip": "Recrutment\\wwwroot\\css\\site.css",
-              "ViewState": "AgIAAMoBAAAAAAAAAAAAANkBAAAXAAAAAAAAAA==",
+              "ViewState": "AgIAAKQEAAAAAAAAAAAmwK0EAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
               "WhenOpened": "2025-01-29T17:43:07.423Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Dot NET\\Recrutment\\Recrutment\\Views\\Offre\\Index.cshtml",
+              "RelativeDocumentMoniker": "Recrutment\\Views\\Offre\\Index.cshtml",
+              "ToolTip": "D:\\Dot NET\\Recrutment\\Recrutment\\Views\\Offre\\Index.cshtml",
+              "RelativeToolTip": "Recrutment\\Views\\Offre\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-29T16:11:53.629Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "D:\\Dot NET\\Recrutment\\Recrutment\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "RelativeDocumentMoniker": "Recrutment\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "ToolTip": "D:\\Dot NET\\Recrutment\\Recrutment\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "RelativeToolTip": "Recrutment\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "ViewState": "AgIAACUAAAAAAAAAAAAwwDYAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-29T17:55:00.846Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "D:\\Dot NET\\Recrutment\\Recrutment\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "Recrutment\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "D:\\Dot NET\\Recrutment\\Recrutment\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "Recrutment\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAADYAAAAAAAAAAAAAACYAAAAZAAAAAAAAAA==",
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Dot NET\\Recrutment\\Recrutment\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Recrutment\\Views\\Home\\Index.cshtml",
+              "ToolTip": "D:\\Dot NET\\Recrutment\\Recrutment\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Recrutment\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABYAAABRAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-01-29T14:35:59.415Z",
+              "WhenOpened": "2025-01-29T16:41:54.999Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "GetCandidaturesByRecruteur.cshtml",
-              "DocumentMoniker": "D:\\Dot NET\\Recrutment\\Recrutment\\Views\\Candidature\\GetCandidaturesByRecruteur.cshtml",
-              "RelativeDocumentMoniker": "Recrutment\\Views\\Candidature\\GetCandidaturesByRecruteur.cshtml",
-              "ToolTip": "D:\\Dot NET\\Recrutment\\Recrutment\\Views\\Candidature\\GetCandidaturesByRecruteur.cshtml",
-              "RelativeToolTip": "Recrutment\\Views\\Candidature\\GetCandidaturesByRecruteur.cshtml",
-              "ViewState": "AgIAABUAAAAAAAAAAAAAABwAAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-01-29T14:52:46.147Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "Index.cshtml",
               "DocumentMoniker": "D:\\Dot NET\\Recrutment\\Recrutment\\Views\\Recruteur\\Index.cshtml",
               "RelativeDocumentMoniker": "Recrutment\\Views\\Recruteur\\Index.cshtml",
               "ToolTip": "D:\\Dot NET\\Recrutment\\Recrutment\\Views\\Recruteur\\Index.cshtml",
               "RelativeToolTip": "Recrutment\\Views\\Recruteur\\Index.cshtml",
-              "ViewState": "AgIAAG8AAAAAAAAAAAAAAHcAAAAcAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAJYAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-01-27T03:02:25.654Z",
               "EditorCaption": ""
@@ -168,14 +223,65 @@
               "RelativeDocumentMoniker": "Recrutment\\Views\\Offre\\MesOffres.cshtml",
               "ToolTip": "D:\\Dot NET\\Recrutment\\Recrutment\\Views\\Offre\\MesOffres.cshtml",
               "RelativeToolTip": "Recrutment\\Views\\Offre\\MesOffres.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAE4AAAAAAAAAAAAAAD4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-01-29T15:29:51.836Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 11,
+              "Title": "GetCandidaturesByRecruteur.cshtml",
+              "DocumentMoniker": "D:\\Dot NET\\Recrutment\\Recrutment\\Views\\Candidature\\GetCandidaturesByRecruteur.cshtml",
+              "RelativeDocumentMoniker": "Recrutment\\Views\\Candidature\\GetCandidaturesByRecruteur.cshtml",
+              "ToolTip": "D:\\Dot NET\\Recrutment\\Recrutment\\Views\\Candidature\\GetCandidaturesByRecruteur.cshtml",
+              "RelativeToolTip": "Recrutment\\Views\\Candidature\\GetCandidaturesByRecruteur.cshtml",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAABwAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-29T14:52:46.147Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "LoginWithRecoveryCode.cshtml",
+              "DocumentMoniker": "D:\\Dot NET\\Recrutment\\Recrutment\\Areas\\Identity\\Pages\\Account\\LoginWithRecoveryCode.cshtml",
+              "RelativeDocumentMoniker": "Recrutment\\Areas\\Identity\\Pages\\Account\\LoginWithRecoveryCode.cshtml",
+              "ToolTip": "D:\\Dot NET\\Recrutment\\Recrutment\\Areas\\Identity\\Pages\\Account\\LoginWithRecoveryCode.cshtml",
+              "RelativeToolTip": "Recrutment\\Areas\\Identity\\Pages\\Account\\LoginWithRecoveryCode.cshtml",
+              "ViewState": "AgIAABMAAAAAAAAAAAAgwC0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-30T14:29:32.971Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\Dot NET\\Recrutment\\Recrutment\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Recrutment\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\Dot NET\\Recrutment\\Recrutment\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Recrutment\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABIAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-29T14:35:59.415Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Dot NET\\Recrutment\\Recrutment\\Views\\Candidature\\Index.cshtml",
+              "RelativeDocumentMoniker": "Recrutment\\Views\\Candidature\\Index.cshtml",
+              "ToolTip": "D:\\Dot NET\\Recrutment\\Recrutment\\Views\\Candidature\\Index.cshtml",
+              "RelativeToolTip": "Recrutment\\Views\\Candidature\\Index.cshtml",
+              "ViewState": "AgIAAGEAAAAAAAAAAAAAAAsAAABJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-30T13:17:00.108Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
               "Title": "CandidatsController.cs",
               "DocumentMoniker": "D:\\Dot NET\\Recrutment\\Recrutment\\Controllers\\CandidatsController.cs",
               "RelativeDocumentMoniker": "Recrutment\\Controllers\\CandidatsController.cs",
@@ -187,7 +293,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 12,
               "Title": "Register.cshtml.cs",
               "DocumentMoniker": "D:\\Dot NET\\Recrutment\\Recrutment\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
               "RelativeDocumentMoniker": "Recrutment\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
@@ -195,24 +301,11 @@
               "RelativeToolTip": "Recrutment\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
               "ViewState": "AgIAAGUAAAAAAAAAAAAYwHAAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-29T17:56:16.169Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-29T17:56:16.169Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Register.cshtml",
-              "DocumentMoniker": "D:\\Dot NET\\Recrutment\\Recrutment\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
-              "RelativeDocumentMoniker": "Recrutment\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
-              "ToolTip": "D:\\Dot NET\\Recrutment\\Recrutment\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
-              "RelativeToolTip": "Recrutment\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAbAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-01-29T17:55:00.846Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 13,
               "Title": "SD.cs",
               "DocumentMoniker": "D:\\Dot NET\\Recrutment\\Recrutment\\Utility\\SD.cs",
               "RelativeDocumentMoniker": "Recrutment\\Utility\\SD.cs",
@@ -224,7 +317,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 14,
               "Title": "ApplicationUser.cs",
               "DocumentMoniker": "D:\\Dot NET\\Recrutment\\Recrutment\\Models\\ApplicationUser.cs",
               "RelativeDocumentMoniker": "Recrutment\\Models\\ApplicationUser.cs",
@@ -236,19 +329,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\Dot NET\\Recrutment\\Recrutment\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "Recrutment\\Views\\Home\\Index.cshtml",
-              "ToolTip": "D:\\Dot NET\\Recrutment\\Recrutment\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "Recrutment\\Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAPAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-01-29T16:41:54.999Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 15,
               "Title": "Edit.cshtml",
               "DocumentMoniker": "D:\\Dot NET\\Recrutment\\Recrutment\\Views\\Recruteur\\Edit.cshtml",
               "RelativeDocumentMoniker": "Recrutment\\Views\\Recruteur\\Edit.cshtml",
@@ -260,19 +341,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\Dot NET\\Recrutment\\Recrutment\\Views\\Offre\\Index.cshtml",
-              "RelativeDocumentMoniker": "Recrutment\\Views\\Offre\\Index.cshtml",
-              "ToolTip": "D:\\Dot NET\\Recrutment\\Recrutment\\Views\\Offre\\Index.cshtml",
-              "RelativeToolTip": "Recrutment\\Views\\Offre\\Index.cshtml",
-              "ViewState": "AgIAAHoAAAAAAAAAAAAAAIYAAAAaAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-01-29T16:11:53.629Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 20,
               "Title": "CandidatureController.cs",
               "DocumentMoniker": "D:\\Dot NET\\Recrutment\\Recrutment\\Controllers\\CandidatureController.cs",
               "RelativeDocumentMoniker": "Recrutment\\Controllers\\CandidatureController.cs",
@@ -284,7 +353,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 16,
               "Title": "OffreController.cs",
               "DocumentMoniker": "D:\\Dot NET\\Recrutment\\Recrutment\\Controllers\\OffreController.cs",
               "RelativeDocumentMoniker": "Recrutment\\Controllers\\OffreController.cs",
@@ -296,7 +365,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 18,
               "Title": "Candidatures.cshtml",
               "DocumentMoniker": "D:\\Dot NET\\Recrutment\\Recrutment\\Views\\Offre\\Candidatures.cshtml",
               "RelativeDocumentMoniker": "Recrutment\\Views\\Offre\\Candidatures.cshtml",
@@ -308,7 +377,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 17,
               "Title": "RecruteurController.cs",
               "DocumentMoniker": "D:\\Dot NET\\Recrutment\\Recrutment\\Controllers\\RecruteurController.cs",
               "RelativeDocumentMoniker": "Recrutment\\Controllers\\RecruteurController.cs",
@@ -320,7 +389,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 23,
               "Title": "Recruteur.cs",
               "DocumentMoniker": "D:\\Dot NET\\Recrutment\\Recrutment\\Models\\Recruteur.cs",
               "RelativeDocumentMoniker": "Recrutment\\Models\\Recruteur.cs",
@@ -332,7 +401,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 21,
               "Title": "Offre.cs",
               "DocumentMoniker": "D:\\Dot NET\\Recrutment\\Recrutment\\Models\\Offre.cs",
               "RelativeDocumentMoniker": "Recrutment\\Models\\Offre.cs",
@@ -344,7 +413,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 22,
               "Title": "Edit.cshtml",
               "DocumentMoniker": "D:\\Dot NET\\Recrutment\\Recrutment\\Views\\Offre\\Edit.cshtml",
               "RelativeDocumentMoniker": "Recrutment\\Views\\Offre\\Edit.cshtml",
@@ -356,7 +425,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 24,
               "Title": "Create.cshtml",
               "DocumentMoniker": "D:\\Dot NET\\Recrutment\\Recrutment\\Views\\Candidats\\Create.cshtml",
               "RelativeDocumentMoniker": "Recrutment\\Views\\Candidats\\Create.cshtml",
@@ -368,7 +437,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 25,
               "Title": "Candidats.cs",
               "DocumentMoniker": "D:\\Dot NET\\Recrutment\\Recrutment\\Models\\Candidats.cs",
               "RelativeDocumentMoniker": "Recrutment\\Models\\Candidats.cs",
@@ -380,7 +449,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 26,
               "Title": "Candidature.cs",
               "DocumentMoniker": "D:\\Dot NET\\Recrutment\\Recrutment\\Models\\Candidature.cs",
               "RelativeDocumentMoniker": "Recrutment\\Models\\Candidature.cs",
@@ -392,7 +461,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 27,
               "Title": "Create.cshtml",
               "DocumentMoniker": "D:\\Dot NET\\Recrutment\\Recrutment\\Views\\Offre\\Create.cshtml",
               "RelativeDocumentMoniker": "Recrutment\\Views\\Offre\\Create.cshtml",
