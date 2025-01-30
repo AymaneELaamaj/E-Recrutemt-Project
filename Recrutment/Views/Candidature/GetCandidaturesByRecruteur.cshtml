@@ -1,88 +1,76 @@
 ﻿@model IEnumerable<Recrutment.Models.Candidature>
 
-@{
-    ViewData["Title"] = "Mes Candidatures";
-}
-
-<div class="container mt-5">
-    <h2 class="text-center mb-4">Mes Candidatures</h2>
-
-    @if (!Model.Any())
-    {
-        <div class="alert alert-info text-center" role="alert">
-            Aucune candidature trouvée.
+<div class="applications-dashboard">
+    <div class="dashboard-header">
+        <div class="header-content">
+            <h2 class="dashboard-title">Candidatures Reçues</h2>
+            <div class="stats-cards">
+                <div class="stat-card">
+                    <span class="stat-value">@Model.Count()</span>
+                    <span class="stat-label">Total Candidatures</span>
+                </div>
+                <div class="stat-card">
+                    <span class="stat-value">@Model.Where(c => c.DatePostulation.Date == DateTime.Today).Count()</span>
+                    <span class="stat-label">Aujourd'hui</span>
+                </div>
+            </div>
         </div>
-    }
-    else
-    {
-        <div class="table-responsive">
-            <table class="table table-hover table-striped">
-                <thead class="thead-dark">
-                    <tr>
-                        <th scope="col">Nom du Candidat</th>
-                        <th scope="col">Offre</th>
-                        <th scope="col">CV</th>
-                        <th scope="col">Date de Candidature</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    @foreach (var candidature in Model)
-                    {
-                        <tr>
-                            <td>@candidature.Candidat?.Nom</td>
-                            <td>@candidature.Offre?.Poste</td>
-                            <td>
-                                @if (!string.IsNullOrEmpty(candidature.Candidat?.CV))
-                                {
-                                    <a href="@Url.Action("DownloadCV", "Candidats", new { id = candidature.Candidat.Id })" class="btn btn-primary btn-sm">
-                                        <i class="bi bi-download"></i> Télécharger CV
-                                    </a>
-                                }
-                                else
-                                {
-                                    <span class="text-muted">Aucun CV</span>
-                                }
-                            </td>
-                            <td>@candidature.DatePostulation.ToString("dd/MM/yyyy")</td>
-                        </tr>
-                    }
-                </tbody>
-            </table>
-        </div>
-    }
+    </div>
 
-    <!-- Optional: Add a button to go back or navigate to other sections -->
-    <div class="text-center mt-4">
-        <a href="@Url.Action("Index", "Home")" class="btn btn-outline-secondary">
-            <i class="bi bi-arrow-left"></i> Retour à l'accueil
-        </a>
+    <div class="dashboard-content">
+        @if (!Model.Any())
+        {
+            <div class="empty-state">
+                @* <img src="/api/placeholder/120/120" alt="Empty applications" class="empty-icon"> *@
+                <h3 class="empty-title">Aucune candidature</h3>
+                <p class="empty-text">Vous n'avez pas encore reçu de candidatures pour vos offres d'emploi.</p>
+            </div>
+        }
+        else
+        {
+            <div class="applications-grid">
+                @foreach (var candidature in Model)
+                {
+                    <div class="application-card">
+                        <div class="candidate-info">
+                            <div class="candidate-avatar">
+                                @* <img src="/api/placeholder/48/48" alt="@candidature.Candidat?.Nom"> *@
+                            </div>
+                            <div class="candidate-details">
+                                <h3 class="candidate-name">@candidature.Candidat?.Nom</h3>
+                                <span class="application-date">
+                                    Postulé le @candidature.DatePostulation.ToString("dd MMMM yyyy")
+                                </span>
+                            </div>
+                        </div>
+
+                        <div class="job-applied">
+                            <svg class="job-icon" viewBox="0 0 24 24">
+                                <path d="M21 13.255A23.931 23.931 0 0112 15c-3.183 0-6.22-.62-9-1.745M16 6V4a2 2 0 00-2-2h-4a2 2 0 00-2 2v2m4 6h.01M5 20h14a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+                            </svg>
+                            <span class="job-title">@candidature.Offre?.Poste</span>
+                        </div>
+
+                        <div class="application-actions">
+                            @if (!string.IsNullOrEmpty(candidature.Candidat?.CV))
+                            {
+                                <a href="@Url.Action("DownloadCV", "Candidats", new { id = candidature.Candidat.Id })"
+                                   class="action-button download-cv">
+                                    <svg class="action-icon" viewBox="0 0 24 24">
+                                        <path d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
+                                    </svg>
+                                    Télécharger CV
+                                </a>
+                            }
+                            <div class="status-actions">
+                                <button class="action-button accept">Accepter</button>
+                                <button class="action-button reject">Refuser</button>
+                            </div>
+                        </div>
+                    </div>
+                }
+            </div>
+        }
     </div>
 </div>
 
-<!-- Optional: Add some custom CSS for better styling -->
-<style>
-    .table-hover tbody tr:hover {
-        background-color: #f8f9fa;
-    }
-
-    .thead-dark th {
-        background-color: #343a40;
-        color: white;
-    }
-
-    .btn-primary {
-        background-color: #007bff;
-        border-color: #007bff;
-    }
-
-        .btn-primary:hover {
-            background-color: #0056b3;
-            border-color: #004085;
-        }
-
-    .alert-info {
-        background-color: #d1ecf1;
-        border-color: #bee5eb;
-        color: #0c5460;
-    }
-</style>

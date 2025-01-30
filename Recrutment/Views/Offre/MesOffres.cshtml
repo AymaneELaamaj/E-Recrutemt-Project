@@ -1,38 +1,97 @@
 ﻿@model IEnumerable<Recrutment.Models.Offre>
 
-<h2>Mes Offres</h2>
+<div class="recruitment-feed">
+    <div class="feed-header">
+        <h2 class="feed-title">Offres d'Emploi</h2>
+        <a href="@Url.Action("Create", "Offre")" class="post-job-btn">
+            <svg class="btn-icon" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 4v16m8-8H4" />
+            </svg>
+            Publier une offre
+        </a>
+    </div>
 
-@if (!Model.Any())
-{
-    <p>Aucune offre disponible.</p>
-}
-else
-{
-    <table class="table">
-        <thead>
-            <tr>
-                <th>Poste</th>
-                <th>Secteur</th>
-                <th>Type de contrat</th>
-                <th>Rémunération</th>
-                <th>Actions</th>
-            </tr>
-        </thead>
-        <tbody>
-            @foreach (var offre in Model)
+    <div class="feed-container">
+        <div class="feed-sidebar">
+            <div class="filters-section">
+                <h3 class="filters-title">Filtres</h3>
+                <div class="filter-group">
+                    <label class="filter-label">Type de contrat</label>
+                    <div class="filter-options">
+                        <label class="filter-option">
+                            <input type="checkbox" name="contract" value="cdi">
+                            <span>CDI</span>
+                        </label>
+                        <label class="filter-option">
+                            <input type="checkbox" name="contract" value="cdd">
+                            <span>CDD</span>
+                        </label>
+                        <label class="filter-option">
+                            <input type="checkbox" name="contract" value="stage">
+                            <span>Stage</span>
+                        </label>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="feed-content">
+            @if (!Model.Any())
             {
-                <tr>
-                    <td>@offre.Poste</td>
-                    <td>@offre.Secteur</td>
-                    <td>@offre.TypeContrat</td>
-                    <td>@offre.Remuneration</td>
-                    <td>
-                        <a href="@Url.Action("Details", "Offre", new { id = offre.Id })" class="btn btn-info">Voir</a>
-                        <a href="@Url.Action("Edit", "Offre", new { id = offre.Id })" class="btn btn-warning">Modifier</a>
-                        <a href="@Url.Action("Delete", "Offre", new { id = offre.Id })" class="btn btn-danger">Supprimer</a>
-                    </td>
-                </tr>
+                <div class="empty-feed">
+                    <img src="/api/placeholder/120/120" alt="Empty state" class="empty-icon">
+                    <h3 class="empty-title">Aucune offre disponible</h3>
+                    <p class="empty-text">Soyez le premier à publier une offre d'emploi</p>
+                    <a href="@Url.Action("Create", "Offre")" class="empty-action">Créer une offre</a>
+                </div>
             }
-        </tbody>
-    </table>
-}
+            else
+            {
+                <div class="job-cards">
+                    @foreach (var offre in Model)
+                    {
+                        <div class="job-card">
+                            <div class="job-card-header">
+                                <div class="company-logo">
+                                    <img src="/api/placeholder/48/48" alt="Company logo">
+                                </div>
+                                <div class="job-info">
+                                    <h3 class="job-title">@offre.Poste</h3>
+                                    <span class="company-name">@offre.Secteur</span>
+                                </div>
+                            </div>
+
+                            <div class="job-details">
+                                <div class="detail-item">
+                                    <svg class="detail-icon" viewBox="0 0 24 24">
+                                        <path d="M21 13.255A23.931 23.931 0 0112 15c-3.183 0-6.22-.62-9-1.745M16 6V4a2 2 0 00-2-2h-4a2 2 0 00-2 2v2m4 6h.01M5 20h14a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+                                    </svg>
+                                    <span>@offre.TypeContrat</span>
+                                </div>
+                                <div class="detail-item">
+                                    <svg class="detail-icon" viewBox="0 0 24 24">
+                                        <path d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                                    </svg>
+                                    <span>@offre.Remuneration</span>
+                                </div>
+                            </div>
+
+                            <div class="job-card-actions">
+                                <a href="@Url.Action("Details", "Offre", new { id = offre.Id })" class="card-action-btn view">
+                                    <svg class="action-icon" viewBox="0 0 24 24">
+                                        <path d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
+                                        <path d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z" />
+                                    </svg>
+                                    Voir détails
+                                </a>
+                                <a href="@Url.Action("Edit", "Offre", new { id = offre.Id })" class="card-action-btn edit">Modifier</a>
+                                <a href="@Url.Action("Delete", "Offre", new { id = offre.Id })" class="card-action-btn delete">Supprimer</a>
+                            </div>
+                        </div>
+                    }
+                </div>
+            }
+        </div>
+    </div>
+</div>
+
