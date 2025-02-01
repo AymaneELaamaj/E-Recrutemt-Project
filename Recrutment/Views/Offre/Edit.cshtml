@@ -1,48 +1,80 @@
 ﻿@model Recrutment.Models.Offre
 
+<div class="container py-4">
+    <div class="row justify-content-center">
+        <div class="col-md-8">
+            <div class="card border-0 shadow-sm">
+                <div class="card-body p-4">
+                    <h4 class="card-title mb-4">@ViewData["Title"]</h4>
 
+                    <form asp-action="Edit" method="post">
+                        <input asp-for="Id" type="hidden" />
 
-<h2>@ViewData["Title"]</h2>
+                        <!-- Poste -->
+                        <div class="mb-3">
+                            <label asp-for="Poste" class="form-label fw-semibold">Poste</label>
+                            <input asp-for="Poste" class="form-control form-control-lg" />
+                            <span asp-validation-for="Poste" class="text-danger"></span>
+                        </div>
 
-<form asp-action="Edit" method="post" class="form-horizontal">
-    <input asp-for="Id" type="hidden" />
+                        <!-- Secteur -->
+                        <div class="mb-3">
+                            <label asp-for="Secteur" class="form-label fw-semibold">Secteur</label>
+                            <input asp-for="Secteur" class="form-control form-control-lg" />
+                            <span asp-validation-for="Secteur" class="text-danger"></span>
+                        </div>
 
-    <div class="form-group">
-        <label asp-for="Poste"></label>
-        <input asp-for="Poste" class="form-control" />
-        <span asp-validation-for="Poste" class="text-danger"></span>
+                        <!-- Type de Contrat -->
+                        <div class="mb-3">
+                            <label asp-for="TypeContrat" class="form-label fw-semibold">Type de Contrat</label>
+                            <input asp-for="TypeContrat" class="form-control form-control-lg" />
+                            <span asp-validation-for="TypeContrat" class="text-danger"></span>
+                        </div>
+
+                        <!-- Profil -->
+                        <div class="mb-3">
+                            <label asp-for="Profil" class="form-label fw-semibold">Profil Recherché</label>
+                            <textarea asp-for="Profil" class="form-control form-control-lg" rows="4"></textarea>
+                            <span asp-validation-for="Profil" class="text-danger"></span>
+                        </div>
+
+                        <!-- Rémunération -->
+                        <div class="mb-3">
+                            <label asp-for="Remuneration" class="form-label fw-semibold">Rémunération</label>
+                            <div class="input-group">
+                                <input asp-for="Remuneration" type="number" class="form-control form-control-lg" />
+                                <span class="input-group-text">€</span>
+                            </div>
+                            <span asp-validation-for="Remuneration" class="text-danger"></span>
+                        </div>
+
+                        <!-- Recruteur -->
+                        <div class="mb-4">
+                            <label asp-for="ApplicationUserId" class="form-label fw-semibold">Recruteur</label>
+                            <select asp-for="ApplicationUserId" class="form-select form-select-lg"
+                                    asp-items="@(new SelectList(ViewBag.Recruteurs, "Id", "Nom"))">
+                            </select>
+                            <span asp-validation-for="ApplicationUserId" class="text-danger"></span>
+                        </div>
+
+                        <!-- Buttons -->
+                        <div class="d-flex gap-2">
+                            <button type="submit" class="btn btn-primary btn-lg px-4">
+                                <i class="bi bi-check-lg me-2"></i>Enregistrer
+                            </button>
+                            <a class="btn btn-light btn-lg px-4" asp-controller="Offre" asp-action="Index">
+                                <i class="bi bi-x-lg me-2"></i>Annuler
+                            </a>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
     </div>
+</div>
 
-    <div class="form-group">
-        <label asp-for="Secteur"></label>
-        <input asp-for="Secteur" class="form-control" />
-        <span asp-validation-for="Secteur" class="text-danger"></span>
-    </div>
-
-    <div class="form-group">
-        <label asp-for="TypeContrat"></label>
-        <input asp-for="TypeContrat" class="form-control" />
-        <span asp-validation-for="TypeContrat" class="text-danger"></span>
-    </div>
-
-    <div class="form-group">
-        <label asp-for="Profil"></label>
-        <input asp-for="Profil" class="form-control" />
-        <span asp-validation-for="Profil" class="text-danger"></span>
-    </div>
-
-    <div class="form-group">
-        <label asp-for="Remuneration"></label>
-        <input asp-for="Remuneration" type="number" class="form-control" />
-        <span asp-validation-for="Remuneration" class="text-danger"></span>
-    </div>
-
-    <div class="form-group">
-        <label asp-for="ApplicationUserId"></label>
-        <select asp-for="ApplicationUserId" class="form-control" asp-items="@(new SelectList(ViewBag.Recruteurs, "Id", "Nom"))"></select>
-        <span asp-validation-for="ApplicationUserId" class="text-danger"></span>
-    </div>
-
-    <button type="submit" class="btn btn-primary">Enregistrer</button>
-    <a class="btn btn-secondary" asp-area="" asp-controller="Offre" asp-action="Index">Annuler</a>
-</form>
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

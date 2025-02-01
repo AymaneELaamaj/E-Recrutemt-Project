@@ -137,39 +137,79 @@ namespace Recrutment.Controllers
 
         // Affiche le formulaire de modification
         [Authorize(Roles = "Admin,Recruteur")]
-
         public IActionResult Edit(int id)
         {
-            var offre = _context.Offres
-                .Include(o => o.Recruteur)
-                .FirstOrDefault(o => o.Id == id);
+            var offre = _context.Offres.FirstOrDefault(o => o.Id == id);
 
             if (offre == null)
             {
                 return NotFound();
             }
 
-            ViewData["Title"] = "Modifier une offre"; // Initialiser le titre de la page
+            // Check if the current user is authorized to edit this offer
+            var currentUserId = User.FindFirstValue(ClaimTypes.NameIdentifier);
+            if (offre.ApplicationUserId != currentUserId && !User.IsInRole("Admin"))
+            {
+                return Forbid();
+            }
 
-            return View(offre); // Passer l'offre au modèle de la vue
+            // Prepare recruiters for dropdown
+            ViewBag.Recruteurs = _context.Users
+                .Where(u => u.Id == offre.ApplicationUserId || User.IsInRole("Admin"))
+                .Select(u => new { Id = u.Id, Nom = u.UserName })
+                .ToList();
+
+            ViewData["Title"] = "Modifier une offre";
+            return View(offre);
         }
 
-
-        // Enregistre les modifications
         [HttpPost]
         [ValidateAntiForgeryToken]
         [Authorize(Roles = "Admin,Recruteur")]
-
-        public IActionResult Edit(Offre model)
+        public IActionResult Edit(Offre offre)
         {
+            try
+            {
+                var existingOffer = _context.Offres.FirstOrDefault(o => o.Id == offre.Id);
+                if (existingOffer == null)
+                {
+                    return NotFound();
+                }
 
-            _context.Offres.Update(model);
-            _context.SaveChanges();
+                // Check if the current user is authorized to edit this offer
+                var currentUserId = User.FindFirstValue(ClaimTypes.NameIdentifier);
+                if (existingOffer.ApplicationUserId != currentUserId && !User.IsInRole("Admin"))
+                {
+                    return Forbid();
+                }
 
+                // Update specific fields from the form
+                existingOffer.Poste = offre.Poste;
+                existingOffer.Secteur = offre.Secteur;
+                existingOffer.TypeContrat = offre.TypeContrat;
+                existingOffer.Profil = offre.Profil;
+                existingOffer.Remuneration = offre.Remuneration;
 
-            ViewBag.Recruteurs = _context.Recruteurs.ToList();
-            return RedirectToAction("Index");
+                // Only update ApplicationUserId if user is Admin
+                if (User.IsInRole("Admin"))
+                {
+                    existingOffer.ApplicationUserId = offre.ApplicationUserId;
+                }
 
+                _context.SaveChanges();
+                return RedirectToAction(nameof(Index));
+            }
+            catch (Exception)
+            {
+                // If there's an error, repopulate recruiters and return to the edit view
+                ViewBag.Recruteurs = _context.Users
+                    .Where(u => u.Id == offre.ApplicationUserId || User.IsInRole("Admin"))
+                    .Select(u => new { Id = u.Id, Nom = u.UserName })
+                    .ToList();
+
+                ViewData["Title"] = "Modifier une offre";
+                return View(offre);
+            }
         }
 
         // Affiche la confirmation de suppression
